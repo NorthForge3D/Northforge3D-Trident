@@ -29,7 +29,7 @@ Expect weekly changes, redesigns, and experiments.
 
 ### ✔ Test dual-gantry motion principles  
 Before developing the full Deuce machine, we need a reliable testbed for:
-- Independent Z+X gantries  
+- Independent gantries  
 - Parallel/mirror modes  
 - Mixed toolpaths  
 - High-speed synchronized printing
@@ -40,10 +40,10 @@ Even though this starts from a Trident footprint, nearly everything will be rewo
   - No Voron skirt  
   - **Inverted electronics**  
   - Visible, service-friendly layout inside the chamber  
-- Custom plate to mount a Raspberry Pi with **rear-facing USB/HDMI/network ports**, similar to a production machine  
+- Custom plate to mount a Raspberry Pi with **side-facing USB/HDMI/network ports**, similar to a production machine  
 - Redesigned gantries  
 - Custom lightweight toolheads  
-- Integrated filament cutter  
+- Integrated filament cutter (second iteration)
 - New cable management system  
 - Modified or fully custom gantry components  
 - Custom motor, belt, and pulley arrangement where needed
@@ -77,7 +77,7 @@ Over the next few days:
 
 - Voron-specific parts will be removed  
 - The bottom section will be replaced with a clean NorthForge3D design  
-- Early gantry redesigns will be posted  
+- Early gantry redesigns will be posted (coming in a few weeks)
 - Initial CAD work will begin in Fusion 360  
 - A Week #1 development log will be added
 
