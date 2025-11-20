@@ -1,167 +1,122 @@
-# NorthForge3D Trident – Proof-of-Concept Platform  
-### A development platform for the upcoming **NorthForge3D Deuce** – a true dual-gantry IDEX 3D printer.
-
----
-
-> ⚠️ **Experimental Project – Don’t Build Yet**
-If you'd like to subscribe to updates as this printer, and our full production printer, you can do so here: 👉 **Follow The Trident Build and the Deuce as it Evolves.** https://northforge3d.com/forge-with-us/. Also be sure to check out our upcoming production machine (as it too evolves) at https://northforge3d.com
-
-When we are finish with this design you can expect a full video series documenting every step of building a Northforge Trident. > ⚠️
-
-## ⚡ What This Project Is  
-This repository documents the **design, testing, and evolution** of the NorthForge3D Trident-based proof-of-concept printer.  
-It is **not** the final Deuce, and it is **not** intended to be a drop-in Voron derivative.
-
-Instead, this machine serves as the **engineering sandbox** for testing:
-
-- Dual-gantry motion coordination  
-- Toolhead choreography  
-- Collision-avoidance logic  
-- Motion refinement  
-- Lightweight toolhead design  
-- Firmware tuning (Klipper)  
-- High-resolution motors (0.9° steppers)  
-- Extrusion tests with pancake steppers  
-- Early versions of the Deuce electronics layout  
-- General mechanical R&D
-
-Everything here is evolving rapidly.  
-Expect weekly changes, redesigns, and experiments.
-
----
-
-## 🔧 Goals of the Proof-of-Concept Printer
-
-### ✔ Test dual-gantry motion principles  
-Before developing the full Deuce machine, we need a reliable testbed for:
-- Independent gantries  
-- Parallel/mirror modes  
-- Mixed toolpaths  
-- High-speed synchronized printing
-
-### ✔ Redesign major components  
-Even though this starts from a Trident footprint, and it still is a trident at it's core, we plan to change:
-- Complete redesign of the **bottom section**  
-  - No Voron skirt  
-  - **Inverted electronics**  
-  - Visible, service-friendly layout from inside the chamber  
-- Custom plate to mount a Raspberry Pi with **side-facing USB/HDMI/network ports**, similar to a production machine  
-- Redesigned dual gantry (eventual 4 gantry) for two independent motion systems
-- Custom lightweight toolheads  
-- Integrated filament cutter (second iteration)
-- New cable management system  
-- Modified or fully custom gantry components  
-- Custom motors, possibly belts, and pulley arrangement where needed
-
-### ✔ Develop a clean, production-forward internal layout  
-This proof-of-concept printer will be used to test:
-- Thermal routing  
-- Cable access  
-- Component placement  
-- Build accessibility  
-- Toolhead maintainability  
-- The overall “look and feel” expected of a future NorthForge3D product
-
----
-
-## 🔩 Hardware Decisions (So Far)
-
-- **0.9° Stepper Motors** for precision motion  
-  - 0.54 Nm holding torque (42×48 mm)
-- **0.9° Pancake Steppers** for compact extruder motion
-- **T8×2 (single start) Lead Screws** for fine Z-resolution control
-- Klipper-based electronics  
-- Raspberry Pi with external-facing ports  
-- All hardware and layout subject to change as testing evolves
-
----
-
-## 🚧 Status: Early Development  
-This repository is **actively being cleaned and restructured**.  
-Over the next few days:
-
-- Voron-specific parts will be removed  
-- The bottom section will be replaced with a clean NorthForge3D design  
-- Early gantry redesigns will be posted (coming in a few weeks)
-- Initial CAD work will begin in Fusion 360  
-- A Week #1 development log will be added
-
-After that, expect frequent changelogs as the machine evolves.
-
----
-
-## 📅 Weekly Development Logs  
-A new update will be posted at least once per week, covering:
-
-- CAD changes  
-- Mechanical redesigns  
-- Motion experiments  
-- Firmware tuning  
-- Toolhead prototypes  
-- Mistakes, fixes, and improvements  
-- Future plans  
-- Photos, renders, or video clips  
-
-The goal is to **let the world watch us build a 3D printer from the ground up**.
-
----
-
-## 🧪 This is NOT the Deuce  
-The final Deuce will:
-
-- Feature a **much larger** build volume  
-- Use a custom extrusion frame  
-- Have a full enclosure  
-- Feature a production-grade electronics layout  
-- Use refined, purpose-built gantries  
-- Include collision-resistant logic in firmware  
-- Feature advanced toolhead coordination  
-- Use custom motors and mechanical components  
-- Have internal lighting, cable routing, and service paths optimized for production use
-
-This proof-of-concept simply provides a **test environment** to perfect motion systems, firmware behaviors, and mechanical fundamentals first.
-
----
-
-## 🔗 Follow the Project  
-We are documenting this journey publicly across multiple platforms:
-
-
-👉 **Website**  
-https://northforge3d.com
-
-👉 **Follow The Trident Build and the Deuce as it Evloves.**  
+NorthForge3D Trident – Proof-of-Concept Platform
+A development platform for the upcoming NorthForge3D Deuce – a true dual-gantry IDEX 3D printer.
+⚠️ Experimental Project – Do Not Build Yet
+This repository is under active development and contains early, unstable, and rapidly changing work.
+If you'd like to follow the progress of this proof-of-concept—and receive updates on our full production printer—you can subscribe here:
+👉 Follow the Trident Build and the Deuce as They Evolve
 https://northforge3d.com/forge-with-us/
-
-👉 **Deuce Engineering Blog**  
+Also visit our main site as the Deuce evolves:
+https://northforge3d.com
+When this design stabilizes, we will publish a full video series documenting every stage of building a NorthForge3D Trident.
+⚡ What This Project Is
+This repository documents the engineering, testing, and evolution of the NorthForge3D Trident-based dual-gantry test platform.
+It is not the Deuce, and it is not intended as a drop-in Voron derivative.
+Instead, this machine serves as the R&D sandbox for developing:
+Dual-gantry motion
+Toolhead choreography
+Collision-avoidance logic
+Motion refinement
+Lightweight toolheads
+Klipper tuning
+0.9° high-resolution motors
+Pancake stepper extrusion
+Early electronics layout for the Deuce
+General mechanical innovations
+Everything here is iterating weekly. Expect redesigns, experiments, and occasional chaos.
+🔧 Goals of the Proof-of-Concept Printer
+✔ Validate Dual-Gantry Motion
+We need a reliable platform to test:
+Independent toolheads
+Parallel/mirror print modes
+Mixed toolpaths
+Coordinated high-speed motion
+✔ Redesign Major Subsystems
+While Trident-footprint inspired, this machine will diverge significantly:
+Complete redesign of the bottom section
+No Voron skirt
+Inverted electronics visible inside the chamber
+Clean, service-friendly layout
+Raspberry Pi on a custom plate with side-facing ports
+A redesigned dual (eventual quad) gantry
+Lightweight toolheads
+Filament cutter – v2
+New cable routing systems
+Modified or fully custom gantry components
+Custom motors, pulley arrangements, and belt routing as needed
+✔ Prototype a Production-Forward Layout
+This POC is used to test:
+Thermal management
+Cable access and serviceability
+Component placement
+Mechanical accessibility
+Toolhead maintenance paths
+The aesthetic and functional “feel” of a future NorthForge3D printer
+🔩 Hardware Decisions (So Far)
+0.9° NEMA 17 Motors – 0.54 Nm, 42×48 mm
+0.9° Pancake Steppers for toolheads
+T8×2 (single start) Lead Screws for ultra-fine Z resolution
+Klipper-based electronics
+Raspberry Pi with external-facing I/O
+Additional hardware evolving as testing continues
+🚧 Status: Early Development
+This repository is currently being cleaned, reorganized, and realigned to the new design direction.
+Over the next phase:
+Voron-specific content will be fully removed
+Bottom section redesign will be introduced
+Early gantry tests will be published (coming weeks)
+CAD development will begin in Fusion 360
+Week #1 development log will be added
+After that: expect frequent changelogs as the machine takes shape.
+📅 Development Logs
+Logs will be posted regularly as meaningful progress occurs, covering:
+CAD progress
+Mechanical R&D
+Firmware advances
+Toolhead experiments
+Photo/renders as the project evolves
+Iterative design changes
+Lessons learned and upcoming plans
+Our goal is to document the birth of a printer in real-time.
+🧪 This Is Not the Deuce
+The final NorthForge3D Deuce will be:
+Much larger
+Fully enclosed
+Built on a custom extrusion frame
+Featuring production-grade electronics
+Running refined dual-gantry mechanisms
+Built with collision-resistant logic
+Outfitted with custom motors, pulleys, and mechanical systems
+Designed with full internal lighting and service access paths
+This proof-of-concept exists solely to perfect motion, firmware, and mechanical fundamentals before the production machine.
+🔗 Follow the Project
+👉 Website
+https://northforge3d.com
+👉 Subscribe for Development Updates
+https://northforge3d.com/forge-with-us/
+👉 Deuce Engineering Blog
 https://northforge3d.com/forge-updates/deuce-updates/
-
-👉 **Facebook Page (Daily Updates)**  
+👉 Facebook (Daily Updates)
 https://www.facebook.com/NorthForge3D/
-
-👉 **YouTube Channel (Coming Soon)**  
-Channel Here https://www.youtube.com/@northforge3d  Subscribe for updates, no content until the actual build starts. Full step by step build series to be added. 
-
-👉 **Instagram **  
-Short clips, photos, and behind-the-scenes development.
+👉 YouTube (Full build series coming)
+https://www.youtube.com/@northforge3d
+👉 Instagram
 https://www.instagram.com/northforge3d/
----
-
-## 📜 License  
-This proof-of-concept repository is released under a GNU V3 License: once the fundamental design stabilizes and it is a working Dual Gantry printer we will clarify what is Trident and what is Northforge3d. The license will remain the same. 
-
----
-
-## 🤝 Contributions  
-This is an active engineering project, not a finished printer.  
-Outside contributions are welcome, but the design is evolving rapidly.  
-Open issues or PRs if you want to discuss ideas, improvements, or testing.
-
----
-
-## 🛠 Changelogs  
-Changelogs will appear here as development progresses.
-
-Nov 19th 2025. Removed Trident-Specific stls, drawings, manual etc. Working purely with CAD at this point to customize the trident for our needs, look, and feel. STLs will begin to appear as we are printing them and working towards a fully functional dual-gantry Trident. CAD will be the slowest part, expect the next change log in 2-3 weeks (about the same time our custom 0.9 Nema 17 motors arrive).
+📜 License
+This project is currently released under the GNU GPLv3 license.
+Once the proof-of-concept stabilizes into a working dual-gantry printer, we will clearly identify:
+Which components originate from Voron Trident
+Which components are original NorthForge3D designs
+The license will remain the same.
+🤝 Contributions
+This is an active engineering development project.
+Contributions and discussion are welcome—just understand things move fast and may be reworked often.
+Open an issue or PR if you’d like to collaborate.
+🛠 Changelog
+Nov 19, 2025
+Removed Trident-specific STLs, drawings, and manuals
+Transitioned to CAD-only workflow
+Preparing custom modifications for dual-gantry testing
+STLs will be added only after printed and validated
+Expect next major update in ~2–3 weeks (around the time custom 0.9° motors arrive)
 
 
