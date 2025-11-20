@@ -1,5 +1,24 @@
-you can download the entire STL folder by clicking **[HERE](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FVoronDesign%2FVoron-Trident%2Ftree%2Fmain%2FSTLs)**
+This folder will contain all of the STL files you need to create your own NorthForge Trident. 
 
-This printer uses the StealthBurner toolhead, which is compatible with several of the printers in the Voron lineup. 
-To keep things organized, StealthBurner’s files are maintained separately. 
-the Stealthburner STL's can be downloaded by clicking **[HERE](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FVoronDesign%2FVoron-Stealthburner%2Ftree%2Fmain%2FSTLs)**
+This modified Trident will be the test bed for our dual-gantry printer that will be here mid-2026
+👉 **Website**  
+https://northforge3d.com
+
+If you want to follow the build, including complete video instruction to build your own, you can do so here:
+
+👉 **Follow The Trident Build and the Deuce as it Evloves. Email Signup**  
+https://northforge3d.com/forge-with-us/
+
+👉 **YouTube Channel (Coming Soon)**  
+Channel Here https://www.youtube.com/@northforge3d  
+Subscribe for updates, no content until the actual build starts
+
+👉 **Deuce Engineering Blog**  
+https://northforge3d.com/forge-updates/deuce-updates/
+
+👉 **Facebook Page (Daily Updates)**  
+https://www.facebook.com/NorthForge3D/
+
+👉 **Instagram **  
+Short clips, photos, and behind-the-scenes development.
+https://www.instagram.com/northforge3d/

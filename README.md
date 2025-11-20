@@ -3,6 +3,12 @@
 
 ---
 
+**** Until this message is removed, we do not suggest you try to build this Trident derivative. This project is in active development
+
+If you'd like to subscribe to updates as this printer, and our full production printer, you can do so here: 👉 **Follow The Trident Build and the Deuce as it Evloves.** https://northforge3d.com/forge-with-us/. Also be sure to check out our upcoming production machine (as it too evolves) at https://northforge3d.com
+
+When we are finish with this design you can expect a full video series documenting every step of building a Northforge Trident, and we may choose to provide kits through our website for those who'd like to build their own dual-gantry printer****
+
 ## ⚡ What This Project Is  
 This repository documents the **design, testing, and evolution** of the NorthForge3D Trident-based proof-of-concept printer.  
 It is **not** the final Deuce, and it is **not** intended to be a drop-in Voron derivative.
@@ -35,18 +41,18 @@ Before developing the full Deuce machine, we need a reliable testbed for:
 - High-speed synchronized printing
 
 ### ✔ Redesign major components  
-Even though this starts from a Trident footprint, nearly everything will be reworked:
+Even though this starts from a Trident footprint, and it still is a trident at it's core, we plan to change:
 - Complete redesign of the **bottom section**  
   - No Voron skirt  
   - **Inverted electronics**  
   - Visible, service-friendly layout inside the chamber  
 - Custom plate to mount a Raspberry Pi with **side-facing USB/HDMI/network ports**, similar to a production machine  
-- Redesigned gantries  
+- Redesigned dual gantry (eventual 4 gantry) for two independent motion systems
 - Custom lightweight toolheads  
 - Integrated filament cutter (second iteration)
 - New cable management system  
 - Modified or fully custom gantry components  
-- Custom motor, belt, and pulley arrangement where needed
+- Custom motors, posisbly belts, and pulley arrangement where needed
 
 ### ✔ Develop a clean, production-forward internal layout  
 This proof-of-concept printer will be used to test:
@@ -121,8 +127,12 @@ This proof-of-concept simply provides a **test environment** to perfect motion s
 ## 🔗 Follow the Project  
 We are documenting this journey publicly across multiple platforms:
 
+
 👉 **Website**  
 https://northforge3d.com
+
+👉 **Follow The Trident Build and the Deuce as it Evloves.**  
+https://northforge3d.com/forge-with-us/
 
 👉 **Deuce Engineering Blog**  
 https://northforge3d.com/forge-updates/deuce-updates/
@@ -131,20 +141,15 @@ https://northforge3d.com/forge-updates/deuce-updates/
 https://www.facebook.com/NorthForge3D/
 
 👉 **YouTube Channel (Coming Soon)**  
-Watch us build the printer, the company, and everything in between.
+Channel Here https://www.youtube.com/@northforge3d  Subscribe for updates, no content until the actual build starts
 
-👉 **Instagram (Coming Soon)**  
+👉 **Instagram **  
 Short clips, photos, and behind-the-scenes development.
-
----
-
-## 🔥 Tagline  
-**The Forge is Lit — Watch The Deuce Come to Life.**
-
+https://www.instagram.com/northforge3d/
 ---
 
 ## 📜 License  
-This proof-of-concept repository will be released under an open-source license once the fundamental design stabilizes.
+This proof-of-concept repository will be released under the same fully open-source license (GNU V3) that the Trident used: once the fundamental design stabilizes and it is a working Dual Gantry printer.
 
 ---
 
@@ -158,4 +163,6 @@ Open issues or PRs if you want to discuss ideas, improvements, or testing.
 ## 🛠 Changelogs  
 Changelogs will appear here as development progresses.
 
-Stay tuned — things will move quickly.
+Nov 19th 2025. Removed Trident-Specific stls, drawings, manual etc. Working purely with CAD at this point to customize the trident for our needs, look, and feel. STLs will begin to appear as we are printing them and working towards a fully functional dual-gantry Trident. CAD will be the slowest part, expect the next change log in 2-3 weeks (about the same time our custom 0.9 Nema 17 motors arrive).
+
+
