@@ -1,3 +1,6 @@
+![NorthForge3D Trident Banner](./img/your-banner-filename.png)
+
+
 # NorthForge3D Trident – Proof-of-Concept Platform  
 ### A development platform for the upcoming **NorthForge3D Deuce** – a true dual-gantry IDEX 3D printer.
 
