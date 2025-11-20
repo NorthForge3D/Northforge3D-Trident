@@ -3,11 +3,10 @@
 
 ---
 
-**** Until this message is removed, we do not suggest you try to build this Trident derivative. This project is in active development
-
+> ⚠️ **Experimental Project – Don’t Build Yet**
 If you'd like to subscribe to updates as this printer, and our full production printer, you can do so here: 👉 **Follow The Trident Build and the Deuce as it Evloves.** https://northforge3d.com/forge-with-us/. Also be sure to check out our upcoming production machine (as it too evolves) at https://northforge3d.com
 
-When we are finish with this design you can expect a full video series documenting every step of building a Northforge Trident, and we may choose to provide kits through our website for those who'd like to build their own dual-gantry printer****
+When we are finish with this design you can expect a full video series documenting every step of building a Northforge Trident. > ⚠️
 
 ## ⚡ What This Project Is  
 This repository documents the **design, testing, and evolution** of the NorthForge3D Trident-based proof-of-concept printer.  
@@ -141,7 +140,7 @@ https://northforge3d.com/forge-updates/deuce-updates/
 https://www.facebook.com/NorthForge3D/
 
 👉 **YouTube Channel (Coming Soon)**  
-Channel Here https://www.youtube.com/@northforge3d  Subscribe for updates, no content until the actual build starts
+Channel Here https://www.youtube.com/@northforge3d  Subscribe for updates, no content until the actual build starts. Full step by step build series to be added. 
 
 👉 **Instagram **  
 Short clips, photos, and behind-the-scenes development.
