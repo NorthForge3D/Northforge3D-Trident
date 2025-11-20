@@ -1,4 +1,7 @@
-<p align="center">![NorthForge3D Trident Banner](https://github.com/NorthForge3D/Northforge3D-Trident/blob/main/img/northforge-tridentbanner.jpg)</p>
+<p align="center">
+  <img src="./img/northforge-tridentbanner.jpg" width="100%" alt="NorthForge3D Trident Banner" />
+</p>
+
 
 
 # NorthForge3D Trident – Proof-of-Concept Platform  
