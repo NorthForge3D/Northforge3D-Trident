@@ -4,7 +4,7 @@
 ---
 
 > ⚠️ **Experimental Project – Don’t Build Yet**
-If you'd like to subscribe to updates as this printer, and our full production printer, you can do so here: 👉 **Follow The Trident Build and the Deuce as it Evloves.** https://northforge3d.com/forge-with-us/. Also be sure to check out our upcoming production machine (as it too evolves) at https://northforge3d.com
+If you'd like to subscribe to updates as this printer, and our full production printer, you can do so here: 👉 **Follow The Trident Build and the Deuce as it Evolves.** https://northforge3d.com/forge-with-us/. Also be sure to check out our upcoming production machine (as it too evolves) at https://northforge3d.com
 
 When we are finish with this design you can expect a full video series documenting every step of building a Northforge Trident. > ⚠️
 
@@ -44,14 +44,14 @@ Even though this starts from a Trident footprint, and it still is a trident at i
 - Complete redesign of the **bottom section**  
   - No Voron skirt  
   - **Inverted electronics**  
-  - Visible, service-friendly layout inside the chamber  
+  - Visible, service-friendly layout from inside the chamber  
 - Custom plate to mount a Raspberry Pi with **side-facing USB/HDMI/network ports**, similar to a production machine  
 - Redesigned dual gantry (eventual 4 gantry) for two independent motion systems
 - Custom lightweight toolheads  
 - Integrated filament cutter (second iteration)
 - New cable management system  
 - Modified or fully custom gantry components  
-- Custom motors, posisbly belts, and pulley arrangement where needed
+- Custom motors, possibly belts, and pulley arrangement where needed
 
 ### ✔ Develop a clean, production-forward internal layout  
 This proof-of-concept printer will be used to test:
@@ -148,7 +148,7 @@ https://www.instagram.com/northforge3d/
 ---
 
 ## 📜 License  
-This proof-of-concept repository will be released under the same fully open-source license (GNU V3) that the Trident used: once the fundamental design stabilizes and it is a working Dual Gantry printer.
+This proof-of-concept repository is released under a GNU V3 License: once the fundamental design stabilizes and it is a working Dual Gantry printer we will clarify what is Trident and what is Northforge3d. The license will remain the same. 
 
 ---
 
