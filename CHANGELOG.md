@@ -2,6 +2,21 @@
 All development updates for the Trident dual-gantry proof-of-concept platform.  
 This log documents progress as the machine evolves toward the NorthForge3D **Deuce**.
 
+## 2025-11-23 — Repository Structure Stabilized
+
+- Created first complete folder structure for CAD, docs, and testing workflows
+- Added folder-level README files for:
+  - `/CAD`
+  - `/CAD/NF3D-Added-Parts`
+  - `/CAD/Experimental`
+  - `/CAD/Trident-Base-Files`
+  - `/docs`
+  - `/tests`
+- Established the CAD-first workflow for all future Trident and Deuce development
+- Finalized TODO.md structure to guide Week 1–3 engineering tasks
+- Prepared repository for incoming gantry CAD work next week
+
+
 ---
 
 ## 2025-11-23 — Repository Cleanup & Folder Structure Planning
