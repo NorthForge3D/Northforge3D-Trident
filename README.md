@@ -200,11 +200,8 @@ If you’d like to collaborate, please open an **issue** or a **pull request**.
 
 ---
 
-## 🛠 Changelog
+### 📘 Additional Project Files
 
-**2025-11-19**  
-- Removed Trident-specific STLs, drawings, and manuals  
-- Transitioned to a CAD-only workflow  
-- Preparing custom modifications for dual-gantry testing  
-- STLs will be added only after parts are printed and validated  
-- Next major update will follow initial testing with custom 0.9° motors
+👉 **[CHANGELOG.md](./CHANGELOG.md)** — Full development history  
+👉 **[TODO.md](./TODO.md)** — Active engineering & documentation tasks
+
