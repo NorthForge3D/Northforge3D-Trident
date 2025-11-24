@@ -2,6 +2,107 @@
 All development updates for the Trident dual-gantry proof-of-concept platform.  
 This log documents progress as the machine evolves toward the NorthForge3D **Deuce**.
 
+
+## 2025-11-24 - Ordered the majority of the electronics components
+
+# 📦 NF3D Trident – Serial NF3D.000001
+## Changelog Entry — Electronics, Lighting, Camera, Motors & CNC Tap (Premium Build Spec) - Ordered
+
+### Order Batch: Electronics + Lighting + Camera + Motors + RGB + CNC Tap
+### Date: 2025-Nov-23
+---
+
+## 🔧 Main Controller & Motion Electronics
+- BIGTREETECH Octopus Pro V1.1 (H723 MCU)
+- 8× TMC5160T Pro stepper drivers
+- RJ11 → CAN cable (Octopus → UTC)
+
+---
+
+## 🔗 CAN Bus Toolheads & Hub
+- 2× BTT EBB36 CAN V1.2 (G0B1)  
+  - With ADXL345 accelerometers  
+- 2× BTT UTC V2.1 (Triple CAN Output)
+
+---
+
+## 🎯 Probing & Filament Sensors
+- **CNC Lab CNC Voron Tap V2** (CNC-machined Tap upgrade)
+- 2× SFS V2 Smart Filament Sensors
+
+---
+
+## ⚙️ Custom Motors (NF3D Specification)
+- Custom Hanspose NEMA 17 – 42×48mm – 0.9°
+- 3× Hanspose NEMA 17 – 42×48mm – 0.9° with integrated 250mm T8×2×1-start lead screws
+- 2× Hanspose 36mm Pancake Motors – 0.9° (extruders)
+
+---
+
+## 🧠 Host Controller
+- Raspberry Pi 4 – 4GB
+
+---
+
+## 🖥 Display / UI
+- Elecrow 5" HDMI Touchscreen  
+  - USB-powered (via Pi)  
+  - External plug-in design (skirt passthrough)
+
+---
+
+## 💡 Lighting
+### Chamber Lighting
+- EMITEVER 24V COB LED Strip – 5000K, Ra95+, IP30 (16.4 ft)
+
+### Toolhead RGB
+- 2× 5-LED circular RGB boards (behind clear NF3D logo windows)  
+  - Driven from EBB36 RGB headers
+
+---
+
+## 📷 Camera (No USB Ports Used)
+- Arducam OV5647 – 5MP CSI Camera Module
+- Long CSI ribbon cable (gantry-close mounting)
+
+---
+
+## 🧩 Build Notes (Premium Prototype Configuration)
+- CNC Lab CNC Voron Tap V2/V1 added for maximum probing rigidity and repeatability
+- Dual CAN toolheads using EBB36 boards  
+- Dual UTC hubs for flexible CAN topology  
+- Pi 4 selected for clean USB-powered display and simpler power routing  
+- High-CRI COB chamber lighting + RGB logo lighting  
+- CSI camera to preserve USB ports  
+- Custom Hanspose 0.9° motion system  
+- Integrated Z lead screw motors for premium Z-axis performance  
+- This configuration is intentionally beyond kit-grade — this is the **NF3D flagship prototype**.
+
+---
+
+## 📝 Still To Select / Order
+### Power System
+- 48V PSU  
+- 24V PSU or 48→24V converter  
+- Optional 5V buck converter  
+
+### Hotend System
+- Hotends (Rapido, Revo HF/RF, Dragon HF, etc.)
+- Nozzles (hardened + high-flow)
+- Heaters (24V or 48V)
+- Thermistors or PT100/PT1000
+
+- Bed heater
+
+### Cooling
+- 24V toolhead fans  
+- 24V part cooling fans  
+- 24V chamber fans  
+- Optional bed fans  
+- Optional filtration system  
+
+---
+
 ## 2025-11-23 — Repository Structure Stabilized
 
 - Created first complete folder structure for CAD, docs, and testing workflows
