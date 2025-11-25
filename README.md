@@ -19,7 +19,9 @@ It is **not**:
 - A drop-in Voron derivative  
 - A recommended build at this stage  
 
-If you’d like to follow the progress—and get updates as the Trident and Deuce evolve—you can start here:
+- It will be a modded Voron Trident, with dual gantry printing.
+- 
+If you’d like to follow the progress—and get updates as this build and eventually our printer the Deuce evolve—you can start here:
 
 👉 **Follow the Trident Build and the Deuce as They Evolve**  
 https://northforge3d.com/forge-with-us/
@@ -27,7 +29,7 @@ https://northforge3d.com/forge-with-us/
 👉 **Main Site**  
 https://northforge3d.com
 
-A full video series will be published once the Trident design stabilizes.
+A full video series will be published once the Modded Trident design stabilizes.
 
 ---
 
