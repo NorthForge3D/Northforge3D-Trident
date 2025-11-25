@@ -5,7 +5,6 @@ This log documents progress as the machine evolves toward the NorthForge3D **Deu
 
 ## 2025-11-24 - Ordered the majority of the electronics components
 
-# 📦 NF3D Trident – Serial NF3D.000001
 ## Changelog Entry — Electronics, Lighting, Camera, Motors & CNC Tap (Premium Build Spec) - Ordered
 
 ### Order Batch: Electronics + Lighting + Camera + Motors + RGB + CNC Tap
