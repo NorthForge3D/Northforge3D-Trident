@@ -4,7 +4,7 @@
 
 This BOM describes the current hardware for the **NF3D.000001 premium prototype**.  
 It is intentionally overbuilt to allow testing, tuning, and development.  
-It does **not** represent the final kit BOM that will ship to customers.
+It does **not** represent the final BOM or any possible kit.
 
 ---
 
