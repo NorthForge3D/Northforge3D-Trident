@@ -20,7 +20,8 @@ It is **not**:
 - A recommended build at this stage  
 
 - It will be a modded Voron Trident, with dual gantry printing.
-- 
+- A really cool build if you want to watch and build one yourself
+  
 If you’d like to follow the progress—and get updates as this build and eventually our printer the Deuce evolve—you can start here:
 
 👉 **Follow the Trident Build and the Deuce as They Evolve**  
