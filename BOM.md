@@ -1,5 +1,5 @@
 ---
-## NF3D Trident – Prototype BOM (NF3D.000001)
+## NF3D Trident – Prototype BOM (NF3D Voron Trident Build 0.1)
 ### Evolving development bill of materials – premium prototype build
 
 This BOM describes the current hardware for the **NF3D.000001 premium prototype**.  
