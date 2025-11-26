@@ -1,7 +1,27 @@
 # NorthForge3D Trident — Changelog  
 All development updates for the Trident dual-gantry proof-of-concept platform.  
-This log documents progress as the machine evolves toward the NorthForge3D **Deuce**.
+This log documents progress as this machine evolves towards the NorthForge3D **Deuce**.
 
+## 2025-11-25 - Began CAD work for the NF3D trident mods
+--- 
+  - Began CAD work on the trident mods
+    - Began to create brackets for the bottom rails of the printer
+    - A bolt through bracket at each corner, preferably printed from CF-ASA or equivalent, increases rigidity at the corners
+    - Leads to design decisions [See DESIGN-NOTES.md → Z Motor Corner Stiffeners](./DESIGN-NOTES.md#2025-11-24--z-motor-corner-stiffeners)
+
+  - Design Choices
+    - Decided to use zruncho3d dualing X files as a basis for dual gantry on this printer
+      - Is verify on the duelling zero
+      - Works
+      - Probably needs CAD work to 
+      - Gives a basis for klipper files that work 
+          - likely need a lot of work to perfect
+      - Leads to [See DESIGN-NOTES.md → Gantry Starting Point](./DESIGN-NOTES.md#2025-11-24--gantry-staring-point)
+
+  - Decided on: 
+    1. To upload each trident mod as it becomes complete. In it's own NF3D-Added-Parts folder. 
+    2. To keep the complete CAD out of the project until each part is printed, validated and tested on the final build. 
+    3. With final build / verification - upload complete CAD
 
 ## 2025-11-24 - Ordered the majority of the electronics components
 
