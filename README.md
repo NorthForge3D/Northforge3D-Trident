@@ -113,13 +113,13 @@ This repository is currently being **cleaned**, **reorganized**, and aligned to 
 
 In the near term:
 
-- Remaining Voron-specific content will be removed  
-- Bottom section redesign will be introduced  
+- Remaining Voron-specific stl's will be removed - we'll re-export them with mods when we are done.  
+- Bottom section redesign mod 
 - Early dual-gantry motion tests will be shared  
 - CAD development will continue in Fusion 360  
-- Development logs will grow as milestones are reached  
+- Development logs will grow as milestones are reached, as we work  
 
-Expect the design and structure here to change often as the Trident comes together.
+Expect the design and structure here to change often as the NF3D Modded Trident comes together.
 
 ---
 
@@ -184,7 +184,7 @@ This project is currently released under the **GNU GPLv3** license.
 As the proof-of-concept solidifies, we will clearly identify:
 
 - Which components originate from Voron Trident  
-- Which components are original NorthForge3D designs  
+- Which mods are original NorthForge3D designs  
 
 The license will remain **GPLv3**.
 
