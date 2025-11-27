@@ -10,7 +10,7 @@ It does **not** represent the final BOM or any possible kit.
 ---
 
 ## 🧠 Host Controller / UI
-- Raspberry Pi 4 — 4 GB  
+- Raspberry Pi 4 — 4 GB - selected specifically over the 5 for usb power from Octopus pro (ie no 5v buck to power a pi)
 - Elecrow 5″ HDMI Touchscreen (800×480, USB-powered, external via skirt passthrough)
 
 ---
