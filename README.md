@@ -144,14 +144,18 @@ Long term, these logs will pair with a video series and deeper written documenta
 The final **NorthForge3D Deuce** will be:
 
 - Larger and fully enclosed  
-- Built on a custom extrusion frame  
+- Built on a larger extrusion frame  
 - Outfitted with production-grade electronics  
 - Running refined dual-gantry mechanisms  
 - Built with collision-resistant logic and robust safety considerations  
 - Equipped with custom motors, pulleys, and motion components  
 - Designed with full internal lighting and service access paths  
 
-The Trident exists to **perfect the motion, firmware, and mechanical fundamentals** before we commit them to the Deuce.
+The Trident mod exists to **perfect the motion, firmware, and mechanical fundamentals** before we commit them to the Deuce. 
+
+We've decided to use this printer to show you - how to build a printer that will outdo any printer you can buy off the shelf. You build it, you understand it, you can break it and fix it... it's what we do and you should to. 
+
+A printer you build is your own. A Voron you build is better, faster, and more precise than your Bambu, any day of the week (sorry Bambu fan boys/girls)
 
 ---
 

@@ -8,7 +8,7 @@ Items here reflect the latest active development and will change frequently.
 ## 🧱 CAD Tasks
 
 - [ ] **Redesign Trident Gantry — Timeframe: Weeks 1–3**
-    - **2040 profile version** — significantly increase stiffness for two toolheads moving at ~15,000 mm/s² accelerations.
+    - **2020 profile version** — decided against 2040 for the first build
     - Design in CAD.
 
 - [ ] **Design corner brackets for top and bottom frame interface**
@@ -16,8 +16,8 @@ Items here reflect the latest active development and will change frequently.
     - Target: significantly increase frame rigidity and torsional stiffness.
     - Integrate mounting bosses for panels and cable routing where possible.
 
-- [ ] **Redesign Trident bearing stacks for dual-gantry support**
-    - New bearing stack system for **2040 crossmembers**.
+- [X] **Redesign Trident bearing stacks for dual-gantry support**
+    ~~- New bearing stack system for **2040 crossmembers**.~~
     - Two XY motors above / two XY motors below configuration.
     - Bearing stack assemblies will **bolt through the frame** to stiffen the entire gantry structure.
     - Ensure compatibility with dual independent toolhead carriages.
@@ -43,9 +43,10 @@ Items here reflect the latest active development and will change frequently.
 
 ## 🧪 Testing Tasks
 
-- [ ] **Order frame kits and bearing sets**
-    - Immediately after both gantry variants are designed.
-    - Include additional extrusions to allow quick iteration during testing.
+- [X] **Order frame kits and bearing sets**
+    - Frame ordered - less deviation from original Trident than planned. 
+    - 2020 Black Extrusion - to be cut, drilled, and tapped here
+    - Add stl files for the drill guides for blind corners, bottom mounts, and ganrtry mounts to a /tools directy. 
 
 - [ ] **Print gantry component STLs for validation**
     - Begin printing immediately after completing both gantry designs.
