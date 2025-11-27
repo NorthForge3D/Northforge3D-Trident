@@ -2,6 +2,13 @@
 All development updates for the Trident dual-gantry proof-of-concept platform.  
 This log documents progress as this machine evolves towards the NorthForge3D **Deuce**.
 
+## 2025-11-26
+---
+ - Added to BOM 
+  - decided on a build volume of 250mm x 250mm x 200mm for the first build
+  - shortened Z height and smaller bed frame are good for our first - STIFF - trident
+  - ordered raw 2020 extrusions, psu, ssr, buck converter (adjustable with display for experiamental build), all rails mgn 9 and 12, terminal stripes for clean wiring with a dual -voltage system. 
+
 ## 2025-11-25 - Began CAD work for the NF3D trident mods
 --- 
   - Began CAD work on the trident mods

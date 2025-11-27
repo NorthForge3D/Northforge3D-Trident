@@ -1,5 +1,11 @@
 ## Design notes added 2025-11-25. Gives a place to share thoughts when we edit CHANGELOG.MD and a place to show people why we chose X or Y. 
 
+
+## 2025-11-26 - Size Desicions - Parts Decision - Experimatal Build
+    - Decided on 250mm x 250mm x 200 build volume for first build
+        - If we supply these printers as kits - 300 x 300 x 250 (or 300)is more appropriate
+        - Smaller build volume for this printer allows for easier frame stiffening (it's shorter) and easier tests of high speeds of dual gantry 48v rail. 
+        
 ## 2025-11-24 - Gantry Starting Point
     - Decided to use zruncho3d dualing gantry as a starting point. See: https://github.com/zruncho3d/DuelingX
     - Verififed on a smaller printer, cad available for 1515, 2020, and 3030. Not verified on sizes above 1515. Probably requires work
