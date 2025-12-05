@@ -1,6 +1,42 @@
 # NorthForge3D Trident — Changelog  
 All development updates for the Trident dual-gantry proof-of-concept platform.  
-This log documents progress as this machine evolves towards the NorthForge3D **Deuce**.
+This log documents progress as this machine evolves
+
+## 2025-12-03 — CAD Restructure & Workflow Stabilization
+---
+- Significant restructuring of the `/cad` directory to support the Trident proof-of-concept redesign work.
+- Created a clean modular layout with the following working directories:
+  - `ElectronicsBay/`
+  - `Frame/`
+  - `Gantry/`
+  - `Panels/`
+  - `NF3DReassembled/` (full linked assembly)
+  - `Trident-Original-Cad/` (reference, untouched)
+
+- Added README.md files to all CAD subsystem folders:
+  - Explains purpose, scope, and goals of each subsystem.
+  - Documents the workflow for modifying vs. referencing CAD.
+
+- Defined the CAD development workflow:
+  - Work exclusively inside subsystem directories (Frame, Panels, Gantry, ElectronicsBay).
+  - Keep `Trident-Original-Cad/` as a pristine measurement and comparison reference.
+  - `NF3DReassembled/` acts as the main assembly for validating alignment, clearances, and interference.
+
+- Simplified the versioning strategy:
+  - V0 *is* the physical build unless a major design flaw appears.
+  - No V1/V2 iterative CAD folders needed.
+  - The Deuce will be a completely new CAD project based on learnings from this proof-of-concept.
+
+- Removed unnecessary directory complexity in favour of a fast, focused workflow optimized for working in VR and performing subsystem-level edits.
+
+- This completes the foundational CAD structure required to begin focused engineering work on:
+  - Frame stiffeners  
+  - Electronics bay redesign  
+  - Panel system modifications  
+  - Dual-gantry integration
+
+- Tonight’s work stabilizes the NF3D CAD process and prepares the project for accelerated development as parts begin arriving in December.
+
 
 ## 2025-11-26
 ---

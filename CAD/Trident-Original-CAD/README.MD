@@ -1,13 +1,13 @@
-# Trident-Base-Files
+## Trident Original CAD – Reference Only
 
-Reference geometry derived from the Voron Trident footprint.  
-Used as a dimensional and conceptual baseline for:
+This directory contains the pristine, unmodified CAD files of the original 
+Voron Trident design.
 
-- Dual-gantry testing  
-- Belt path development  
-- Motion-system refinement  
-- Component placement  
-- Frame interactions  
+These files are used strictly for:
+- Measurement reference
+- Comparison against NorthForge3D modifications
+- Alignment checks
+- Ensuring compatibility during early development phases
 
-This folder does *not* contain a complete or buildable Trident kit.  
-It exists solely to support NorthForge3D R&D.
+Do not modify these files.  
+They serve as the fixed reference baseline for the entire project.

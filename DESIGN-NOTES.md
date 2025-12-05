@@ -1,5 +1,38 @@
 ## Design notes added 2025-11-25. Gives a place to share thoughts when we edit CHANGELOG.MD and a place to show people why we chose X or Y. 
 
+## 2025-12-03 — CAD Structure & Workflow Decisions
+    - Tonight’s work established the long-term CAD workflow for the NF3D Trident POC.
+    - Created a clean modular layout in `/cad/`:
+        - ElectronicsBay
+        - Frame
+        - Gantry
+        - Panels
+        - NF3DReassembled (full printer assembly)
+        - Trident-Original-Cad (reference only)
+
+    - Reasoning:
+        - Avoids working inside a single massive 200-piece Fusion file.
+        - Working at the subsystem level is significantly faster in Fusion and VR.
+        - Each subsystem can be iterated on without disrupting unrelated geometry.
+        - The ‘Reassembled’ directory becomes the single source of truth for alignment and clearance checks.
+        - The original Trident CAD must remain untouched so we always have a baseline for comparison.
+
+    - Versioning Thoughts:
+        - V0 *is* the printer unless the gantry design fails or a structural issue appears.
+        - No need for V1/V2 CAD copies—Git + subsystem separation already gives us rollback safety.
+        - The Deuce will be a completely new CAD project (frame, sizing, architecture) informed by this build.
+        - Keeping the Trident POC clean avoids carrying unnecessary complexity into the next printer.
+
+    - Why This Matters:
+        - A modular CAD structure allows extremely rapid iteration.
+        - Lets us test frame stiffeners, electronics bay concepts, panel redesigns, and gantry adjustments without clutter.
+        - Provides clarity for contributors or future documentation.
+        - Lays the foundation for a consistent CAD workflow across all future NorthForge3D printers.
+
+    - Conclusion:
+        - The CAD directory is finally stable.
+        - We now have a structure that supports the NF3D philosophy: design openly, iterate quickly, and build only what has been validated.
+
 
 ## 2025-11-26 - Size Desicions - Parts Decision - Experimatal Build
     - Decided on 250mm x 250mm x 200 build volume for first build
