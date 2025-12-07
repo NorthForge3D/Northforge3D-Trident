@@ -1,5 +1,11 @@
 ## Design notes added 2025-11-25. Gives a place to share thoughts when we edit CHANGELOG.MD and a place to show people why we chose X or Y. 
 
+## 2025-12-05 - Working CAD Structure / Workflow Started
+    - Desiging the frame stiffeners first
+    - Electronics bay next - flipped with a see through panel for easy access
+    - PI-Through skirts design will be housed in the Electronics Bay CAD
+    - These files may affect other design portions / decisions so it is the place to start
+
 ## 2025-12-03 — CAD Structure & Workflow Decisions
     - Tonight’s work established the long-term CAD workflow for the NF3D Trident POC.
     - Created a clean modular layout in `/cad/`:
@@ -20,7 +26,6 @@
     - Versioning Thoughts:
         - V0 *is* the printer unless the gantry design fails or a structural issue appears.
         - No need for V1/V2 CAD copies—Git + subsystem separation already gives us rollback safety.
-        - The Deuce will be a completely new CAD project (frame, sizing, architecture) informed by this build.
         - Keeping the Trident POC clean avoids carrying unnecessary complexity into the next printer.
 
     - Why This Matters:

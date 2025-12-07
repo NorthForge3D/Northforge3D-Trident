@@ -2,6 +2,13 @@
 All development updates for the Trident dual-gantry proof-of-concept platform.  
 This log documents progress as this machine evolves
 
+## 2025-12-06 - Added working cad files to the Electronics Bay and Frame Section
+---
+- Created working CAD files to two directories
+  - ElectronicsBay/ working cad file, portions not needed removed
+  - Frame/ working cad files, all irrelevant cad removed
+- To create CAD for electronics / frame stiffeners / pi through skirt over the coming week
+
 ## 2025-12-03 — CAD Restructure & Workflow Stabilization
 ---
 - Significant restructuring of the `/cad` directory to support the Trident proof-of-concept redesign work.
@@ -36,7 +43,8 @@ This log documents progress as this machine evolves
   - Dual-gantry integration
 
 - Tonight’s work stabilizes the NF3D CAD process and prepares the project for accelerated development as parts begin arriving in December.
-
+\
+e
 
 ## 2025-11-26
 ---
