@@ -1,129 +1,206 @@
-# **NF3D Trident – Prototype BOM (NF3D Voron Trident Build 0.1)**
-### **Updated: Nov 26, 2025**
-### *Evolving development bill of materials – premium prototype build*
-### *Updated as parts are ordered, will finalize with the first/second working prototypes*
+# **NF3D Trident – Prototype BOM (Experimental Build – Pushed to the Limits)**
+### **Updated: Dec 09, 2025**
+### *Premium overbuilt prototype – for testing, tuning, dual-gantry development*
 
-This BOM describes the current hardware for the **NF3D.000001 premium prototype**.  
-It is intentionally overbuilt to allow testing, tuning, and development.  
-It does **not** represent the final BOM or any possible kit.
+This BOM represents the **actual hardware physically in hand** for the first NF3D experimental dual-gantry Trident POC.  
+Everything below is confirmed received unless otherwise noted.
 
 ---
 
-## 🧠 Host Controller / UI
-- Raspberry Pi 4 — 4 GB - selected specifically over the 5 for usb power from Octopus pro (ie no 5v buck to power a pi)
-- Elecrow 5″ HDMI Touchscreen (800×480, USB-powered, external via skirt passthrough)
+# 🔝 **Build Status Overview**
+## **1️⃣ Parts Received (Complete)**
+1. Full electronics kit (Octopus Pro, 5160T Pros, CAN system, Tap, SFS2, Pi 4, display, camera)
+2. Full frame stock (10× 1500mm 2020 extrusions)
+3. Complete fastener kit + extra M5 bolts
+4. All bearings, belts, rails, and motion hardware
+5. All motors (XY/Z + extruder pancakes)
+6. Hotends + hardened nozzles
+7. COB lighting + RGB logo lighting
+8. SSR, buck converter, terminal blocks
+9. Extruder hardware (BMG gears + HGX-Lite + gear set)
+10. All JST connectors required for the build
+
+## **2️⃣ Parts Still To Order / Finalize**
+1. 48V PSU (final chosen model)
+2. 24V buck converter (production version, not testing unit)
+3. X/Y/Z endstop sensors
+4. Chamber thermistor
+5. Bed heater pad + bed insulation
+6. Magnetic sheet + spring steel plate
+7. Cooling system:
+   - Hotend fans  
+   - Part cooling fans  
+   - Chamber fans  
+   - Optional HEPA/Carbon filter
+8. Wiring consumables:
+   - Silicone wire  
+   - Ferrules  
+   - Heatshrink  
+   - Cable sleeving
+9. Final extruder choice (HGX-Lite vs BMG + 0.9° pancake)
+10. Misc consumables (Loctite, zip ties, thermal pads)
 
 ---
 
-## 🔧 Main Motion & Control Electronics
-- BIGTREETECH Octopus Pro V1.1 (H723 MCU)  
-- 8× TMC5160T Pro stepper drivers  
-- RJ11 → CAN cable (Octopus → UTC)
+# 🧱 **FRAME & STRUCTURAL COMPONENTS (RECEIVED)**
 
-### CAN Toolhead Architecture
-- 2× BTT EBB36 CAN V1.2 (G0B1)  
-  - Onboard ADXL345 accelerometers  
-- 2× BTT UTC V2.1 (Triple CAN Output hubs)
+### **2020 Black Aluminum Extrusions**
+- **10× 2020 extrusions – 1500 mm, black**
+  - US supplier (lower shipping cost vs Alibaba)
+  - Enough material for full 300×300×200 POC frame + gantry testing
 
----
+### **Fasteners**
+- **Complete Trident fastener kit**  
+- **Additional M5 bolts** (Amazon – for stiffeners & brackets)
 
-## 🎯 Probing & Filament Sensors
-- CNC Lab CNC Voron Tap V2/V1  
-- 2× SFS V2 Smart Filament Sensors
-
----
-
-## ⚙️ Motion System — Custom NF3D Motors
-
-### X/Y/Z Axis Motors
-- Custom Hanspose NEMA 17 – 42×48 mm – 0.9°  
-- 3× Hanspose NEMA 17 – 42×48 mm – 0.9°  
-  - Integrated 250 mm T8×2 (1-start) lead screws  
-  - Shorter build height selected for early prototypes / stiffest frame behavior
-
-### Extruder Motors
-- 2× Hanspose 36 mm Pancake – 0.9°  
-  - High-resolution extruder motors
+### **Printed Structural Parts**
+- **Corner frame stiffeners – validated**
+  - Printed in ABS + ASA-CF  
+  - Zero detectable flex  
+  - Impacts: squaring accuracy and frame rigidity  
+- **Top-frame stiffeners – validated**
+  - Designed for dual-gantry stiffness at 48V
 
 ---
 
-## 🛠️ Frame & Linear Motion Components
+# ⚙️ **LINEAR MOTION & MECHANICAL COMPONENTS (RECEIVED)**
 
-### Aluminum Extrusions
-- **10× 2020 Black Aluminum Extrusions – 1220 mm**  
-  - For cutting, drilling, and tapping for NF3D Trident 300 build  
-  - First prototype (Frame #1)
+### **Bearings**
+- **3× complete Trident motion bearing kits (INDX brand)**  
+  - Coverage for all idlers, XY gantry, Z carriages
 
-### Linear Rails
-- **3× MGN9 – 250 mm** (Z-axis rails)  
-- **4× MGN9 – 300 mm** (X/Y rails)  
-- **2× MGN12 – 300 mm** (X/Y rails, carriage/gantry structure)
+### **Belts**
+- **6 m GT2 (6 mm) Gates fiber-reinforced belt**  
+  - Enough for full gantry + test rig
 
----
-
-## 🔌 Power System
-
-### Power Supplies
-- **Mean Well LRS-350-48 — 48 V, 7.3 A, 350.4 W**  
-  - Selected due to limited Canadian availability of 450 W units
-
-### Buck / Step-Down Conversion
-- **DROK CNC DC Buck Converter with Meter**  
-  - 6–70 V → adjustable 0–60 V, 10 A / 600 W  
-  - Provides regulated 24 V rail from 48 V supply  
-  - Integrated volt/amp display for development testing
-
-### Power Distribution
-- **12-position Dual-Row Covered Screw Terminal Block — 600 V, 15 A**  
-  - Clean separation of 48 V and 24 V rails  
-  - Allows modular wiring and future removable power harnesses
-
-### Bed Power Switching
-- **Omron G3NB-210B-1 Solid State Relay (SSR)**  
-  - Input: 5–24 VDC  
-  - Output: 24–220 VAC, 10 A  
-  - Used for early testing of high-voltage bed heaters
+### **Linear Rails**
+- **3× MGN9 – 250 mm (Z-axis)**  
+- **4× MGN9 – 300 mm (XY)**  
+- **2× MGN12 – 300 mm (gantry structure)**
 
 ---
 
-## 💡 Lighting
+# 🛰️ **MOTORS (RECEIVED)**
 
-### Chamber Lighting
-- EMITEVER 24 V COB LED Strip – 5000 K, Ra95+, IP30 (16.4 ft)
+### **XY / Z Axis Motors**
+- **0.9° Hanspose NEMA 17 — 42×48 mm**
+- **0.9° Hanspose NEMA 17 — 42×48 mm with integrated 250 mm T8×2 lead screws (Z)**  
+- **0.9° StepperOnline NEMA motors** (backup units)
 
-### Toolhead RGB
-- 2× circular RGB LED boards (5-LED each)  
-  - Mounted behind clear NF3D logo windows
+### **Extruder Motors**
+- **0.9° Hanspose 36 mm pancake motors**  
+- **2× hardened BMG gear sets**  
+- **1× AN HGX-Lite extruder (complete aluminum)**  
+- **1× HGX-Lite gear set**
+
+*(Both extruder systems will be tested before choosing the final NF3D extruder platform.)*
 
 ---
 
-## 📷 Camera System
-- Arducam OV5647 – 5 MP CSI camera  
-- Extended CSI ribbon cable (for gantry-proximal mounting)
+# 🔥 **HOTEND & NOZZLES (RECEIVED)**
+
+### **Hotends**
+- **2× E3D V6 High-Flow (clone)** assemblies
+
+### **Nozzle Set (Hardened Steel)**
+- **0.2 mm**
+- **0.4 mm**
+- **0.6 mm**
 
 ---
 
-## 📝 Still To Select / Order
+# 🧠 **HOST CONTROLLER / UI (RECEIVED)**
 
-### Power System
-- Optional 5 V buck converter (if Pi is powered from printer PSU)
+- **Raspberry Pi 4 — 4 GB**  
+- **Elecrow 5″ HDMI Touchscreen (800×480, USB-powered)**
 
-### Hotend & Heating System
-- Hotends (Rapido HF, Dragon HF, Revo HF/RF, etc.)  
-- Nozzles (hardened and high-flow)  
-- Heater cartridges (24 V or 48 V)  
-- Thermistors or PT100/PT1000
+---
 
-### Cooling
-- 24 V hotend fans  
-- 24 V part-cooling fans  
-- 24 V chamber fans  
-- Optional:  
-  - Bed-cooling fans  
-  - Enclosure filtration (carbon / HEPA)
+# 🧰 **MAIN MOTION ELECTRONICS (RECEIVED)**
 
-### Bed Heating
-- Bed heater pad (voltage TBD)  
-- Bed thermistor or thermocouple  
-- Bed insulation  
+### **Mainboard**
+- **BIGTREETECH Octopus Pro V1.1 (H723)**
+
+### **Drivers**
+- **8× TMC5160T Pro**
+
+### **CAN Bus Toolhead System**
+- **2× BTT EBB36 CAN V1.2**
+  - ADXL345 onboard  
+- **2× BTT UTC V2.1** (triple-CAN output)  
+- **RJ11 → CAN cable (Octopus → UTC)**
+
+---
+
+# 🎯 **SENSORS (RECEIVED)**
+
+- **CNC Lab Voron Tap V2/V1**
+- **2× SFS V2 Smart Filament Sensors**
+
+---
+
+# 📸 **CAMERA (RECEIVED)**
+
+- **Arducam OV5647 — 5 MP CSI camera**  
+- Extended CSI ribbon cable
+
+---
+
+# 💡 **LIGHTING (RECEIVED)**
+
+- **EMITEVER 24V COB LED strip — 5000K, Ra95+**
+- **2× circular 5-LED RGB boards** (for logo illumination)
+
+---
+
+# 🔌 **POWER SYSTEM (RECEIVED)**
+
+### **Received**
+- **Mean Well LRS-350-48 PSU**  
+- **Omron G3NB-210B-1 SSR**  
+- **DROK CNC digital adjustable buck converter**  
+- **12-position dual-row screw terminal block**
+
+### **Still To Order**
+- Final **48V PSU**  
+- Final **24V buck converter**  
+- Optional **5V buck**
+
+---
+
+# 📝 **STILL TO SELECT / ORDER**
+*(All of these will be added when finalized.)*
+
+### **Cooling**
+- Hotend cooling fans (24V)  
+- Part cooling fans (24V)  
+- Chamber fans  
+- Optional HEPA/Carbon filter
+
+### **Bed Heating**
+- Heater pad (voltage TBD)  
+- Thermistor/thermocouple  
+- Insulation  
+- Magnetic sheet  
+- Flex plate  
+
+### **Wiring**
+- Silicone wire (various gauges)  
+- Ferrules  
+- Heatshrink  
+- Braided sleeving  
+
+### **Sensors**
+- X/Y/Z endstops  
+- Chamber thermistor  
+
+### **Misc**
+- Loctite 243  
+- Zip ties  
+- Thermal pads  
+- Heat-set inserts  
+
+---
+
+# ✔️ **End of BOM (Experimental Build – Verified Parts Only)**
 
