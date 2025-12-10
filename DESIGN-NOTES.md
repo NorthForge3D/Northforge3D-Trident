@@ -1,5 +1,13 @@
 ## Design notes added 2025-11-25. Gives a place to share thoughts when we edit CHANGELOG.MD and a place to show people why we chose X or Y. 
 
+## 2025-12-09 Top Frame Stiffeners Created in Cad, Validated by Printing
+    - 10mm x 20mm x 60mm corner brackets designed yesterday, 2 bolts per rail into t nuts
+    - Tried to keep the asthetics of the printer correct
+    - Will use these brackets around the top frame, and also once confirmed non-interference, at each corner of the X/Y around the top
+    - We have decided to build with a volume of 300x 300y 200z ... shortening this printer will further stiffen the frame. 48V rail moving two print heads as quickly as we can without smashing into each other (hopefully) will require every bit of stiffness we can create at the top of the printer where the gantry sits. 
+
+    = STEP BACK - after working with the CAD for a couple of days, separating it out into parts was a bad idea. Will move our new parts, and all future CAD into a NF3D Dual Gantry CAD directory, will keep the original trident file for reference as we work. 
+
 ## 2025-12-05 - Working CAD Structure / Workflow Started
     - Desiging the frame stiffeners first
     - Electronics bay next - flipped with a see through panel for easy access

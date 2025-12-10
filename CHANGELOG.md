@@ -2,6 +2,27 @@
 All development updates for the Trident dual-gantry proof-of-concept platform.  
 This log documents progress as this machine evolves
 
+## 2025-12-09 - Finished design, exported and printed / confirmed corner brakets
+---
+- Ensured the bolts were inset, M5 bolts inset 4 into 10mm thick brackets
+- Exported to STL
+- Printed in ABS, and ASA-CF
+- Bolted to 2020 ext usions without an upright to ensure - squareness printed on a 2.4 and 0.2 printer .. both work
+- Confirmed bracket will hold a corner by itself, and thus, stiffen the blind corners
+- Confirmed with machinist square, when printed with a well-tuned machine, these are exactly square. Will help to square the printer rather than work against it. 
+- Confirmed stiffness, printed at 5 walls, 5 top and bottom layers, 60% gyroid infill, I cannot feel flex in these pieces. With either, a vice and a hammer would be required to break them. 
+
+## 2025-12-08- Designed Corner Braces for the Top of the Printer
+---
+- Designed top brackets that will sit at the top of the printer 
+- Brackets will be used at all corners around the top of the frame. 
+  - 4 brackets around top ring
+  - 1 bracket at x and one at y at each corner
+
+## 2025-12-07
+---
+- Perfected the VR CAD environment, work can now proceed with up to 5 screens as large as needed to see fine details. 
+
 ## 2025-12-06 - Added working cad files to the Electronics Bay and Frame Section
 ---
 - Created working CAD files to two directories
