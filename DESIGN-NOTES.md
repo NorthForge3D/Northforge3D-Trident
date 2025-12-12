@@ -2,6 +2,9 @@
 
 ## 2025-12-11 
     - Reversal of original CAD separation. All CAD now housed in the NF3D-Trident file. This will improved work flow. 
+    - Turned 1 bracket into 12 around the top. Loosely (messy cad) placed them until I add the t-nuts, and the m5 bolts. 
+    - With the shortened printer, this stiffener design will work. If I built it taller, may need to consider weight. How much does 48 M5 bolts and 48 t-nuts add in weight?
+    - This is the design for this shortened dual grantry trident, may reconsider the number of braces if we decide to release this printer in kit form. If I stiffen significantly (I have) but add a 0.5 - 0.8kg of weight at the top, I may reduce movement at the joints but increase the wobble in the aluminum itself. Will try to calculate based on X height vs, X weight at the top frame. Added stiffness is still more important for this first printer. Build volume is shorter, movement at the top is already reduced. Stiffening it will reduce it further over the length of upright we will be using. 
 
 ## 2025-12-09 Top Frame Stiffeners Created in Cad, Validated by Printing
     - 10mm x 20mm x 60mm corner brackets designed yesterday, 2 bolts per rail into t nuts

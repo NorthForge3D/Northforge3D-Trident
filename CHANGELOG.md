@@ -2,7 +2,14 @@
 All development updates for the Trident dual-gantry proof-of-concept platform.  
 This log documents progress as this machine evolves
 
-## 2025-12-11
+## 2025-12-11 - 2 - Duplicated Brackets for Top Brace
+---
+- Created copies of the original bracket design
+- Rotated and poorly placed them
+- Still need to add T-Nuts, joints in CAD and M5 x 12mm bolts
+- Adds - 48 M5 bolts, 48 t-nuts at top frame .. necessary for this iteration
+
+## 2025-12-11 - Reversed previous bad decision of splitting CAD files into folders
 ---
 - Reversed previous decision to separate out mods into separate cad folders
 - Renamed one folder to NF3DModdedCad, this will house all mods / changes
