@@ -2,6 +2,14 @@
 All development updates for the Trident dual-gantry proof-of-concept platform.  
 This log documents progress as this machine evolves
 
+## 2025-12-11
+---
+- Reversed previous decision to separate out mods into separate cad folders
+- Renamed one folder to NF3DModdedCad, this will house all mods / changes
+- Moved previously designed top frame stiffeners to new CAD file - NF3D-Trident
+- CAD directories are now NF3DModdedCad, and Trident-Original-CAD (for reference when needed)
+- Work will continue in the one NF3D-Trident file
+
 ## 2025-12-09 - Finished design, exported and printed / confirmed corner brakets
 ---
 - Ensured the bolts were inset, M5 bolts inset 4 into 10mm thick brackets

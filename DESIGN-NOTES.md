@@ -1,5 +1,8 @@
 ## Design notes added 2025-11-25. Gives a place to share thoughts when we edit CHANGELOG.MD and a place to show people why we chose X or Y. 
 
+## 2025-12-11 
+    - Reversal of original CAD separation. All CAD now housed in the NF3D-Trident file. This will improved work flow. 
+
 ## 2025-12-09 Top Frame Stiffeners Created in Cad, Validated by Printing
     - 10mm x 20mm x 60mm corner brackets designed yesterday, 2 bolts per rail into t nuts
     - Tried to keep the asthetics of the printer correct
