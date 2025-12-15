@@ -1,5 +1,8 @@
 ## Design notes added 2025-11-25. Gives a place to share thoughts when we edit CHANGELOG.MD and a place to show people why we chose X or Y. 
 
+## 2025-12-14
+    - Watching back youtube video. There is a shift in the brackets printed on Sovol.. we're still square, but need to remember if using this printer for example pieces, slow it down. Or just print with the Vorons. They don't have weird lines at speed ... better to print ABS slower in either case for stronger, more precise parts ... note for future part-confirmations and videos of those (should there be more before the gantry videos) - slow it down, print slow, print correctly. 
+
 ## 2025-12-11 
     - Reversal of original CAD separation. All CAD now housed in the NF3D-Trident file. This will improved work flow. 
     - Turned 1 bracket into 12 around the top. Loosely (messy cad) placed them until I add the t-nuts, and the m5 bolts. 

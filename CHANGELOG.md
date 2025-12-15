@@ -2,6 +2,20 @@
 All development updates for the Trident dual-gantry proof-of-concept platform.  
 This log documents progress as this machine evolves
 
+## 2025-12-14
+---
+- Printed several top frame brackets. 
+- Confirmed ASA-CF bracket strength by hand testing. Bracket could not be broken by hand; failure was only possible when mounted without an upright, which exceeds expected use. Strength confirmed sufficient for intended stiffness role.
+- Printed 2020 extrusions out of black abs, created blind corners with it
+- Inserted brackets into extrusions, confirmed strong with all plastic
+- Confirmed brackets print square (within machinist square tolerance) on one Voron and one Sovol printer.
+- Recorded YouTube video of the brackets and explaining their purpose: https://youtu.be/TB5Z2YtNPzY?si=88zf4GWxYT6D0n6M 
+- Created blog post with video, and text explanation: https://northforge3d.com/forge-updates/trident-build/frame-stiffness-matters-controlling-compliance-racking-and-micro-slip-in-a-dual-gantry-printer/
+- Worked in CAD to place all 12 brackets in place using rigid joints
+- Confirmed non-interference in CAD
+- Turned NF3D mods, green. This will help to distiguish Trident CAD from our CAD as we move forward
+- Updated Repo
+
 ## 2025-12-11 - 2 - Duplicated Brackets for Top Brace
 ---
 - Created copies of the original bracket design
