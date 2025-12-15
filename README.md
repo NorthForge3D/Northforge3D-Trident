@@ -210,5 +210,5 @@ If you’d like to collaborate, please open an **issue** or a **pull request**.
 ### 📘 Additional Project Files
 
 👉 **[CHANGELOG.md](./CHANGELOG.md)** — Full development history  
-👉 **[TODO.md](./TODO.md)** — Active engineering & documentation tasks
+👉 **[DESIGN-NOTES.md](./DESIGN-NOTES.md)** — Thoughts / Decisions / The Why
 
