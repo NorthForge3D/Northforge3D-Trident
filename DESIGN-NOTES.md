@@ -1,7 +1,8 @@
 ## Design notes added 2025-11-25. Gives a place to share thoughts when we edit CHANGELOG.MD and a place to show people why we chose X or Y. 
 
 ## 2025-12-14
-    - Watching back youtube video. There is a shift in the brackets printed on Sovol.. we're still square, but need to remember if using this printer for example pieces, slow it down. Or just print with the Vorons. They don't have weird lines at speed ... better to print ABS slower in either case for stronger, more precise parts ... note for future part-confirmations and videos of those (should there be more before the gantry videos) - slow it down, print slow, print correctly. 
+    - Watching back the YouTube video: brackets printed on the Sovol show visible shift artifacts. Parts are still square, but for example/validation pieces, slow the printer down or use the Vorons. ABS prints benefit from lower speeds for both strength and dimensional precision. Note for future part confirmations and videos. 
+    - Watching video back: it may be useful to record two points of view at once. Record my face and talking while recording my hands working. Easy way to do this, without compromising "I am not a youtuber, I have no intention of spending money on recording equiptment" .. Use the macbook to reocrd me, use the iphone and the $20 arm I bought to record me working. This will be useful in future videos when we're building a large frame, etc. As I can switch views. This adds 3 minutes of video editing time... 
 
 ## 2025-12-11 
     - Reversal of original CAD separation. All CAD now housed in the NF3D-Trident file. This will improved work flow. 
