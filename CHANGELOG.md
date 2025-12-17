@@ -2,6 +2,13 @@
 All development updates for the Trident dual-gantry proof-of-concept platform.  
 This log documents progress as this machine evolves
 
+## 2025-12-16
+---
+- Designed bottom frame stiffeners that serve both their purpose and as a place holder for a drop in deck panel
+- Deck panel needs to be easily removable for electronics access, should drop in, and pull / flip up for easy electronics access - inverted electronics for the beauty of it, but designed to be accessible, propably permanently designed that way, but required for first built.
+- Did not commit - concept needs work, needs to stiffen frame, server as a basic panel mount, but not interfere with the Voron design to hold the Z motors. There is no reason to redesign these. 
+- Cannot make deck panel too complicated to cut. 
+
 ## 2025-12-14
 ---
 - Printed several top frame brackets. 
