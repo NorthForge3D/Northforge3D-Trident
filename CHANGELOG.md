@@ -8,7 +8,7 @@ This log documents progress as this machine evolves
 - Defined deck panel requirements:
   - Must be **easily removable** for electronics access
   - Should **drop in** and allow **lift / flip-up access**
-  - Electronics will liy be **inverted-facing** for aesthetics, but must remain serviceable
+  - Electronics will be **inverted** for aesthetics, but must remain serviceable
   - This orientation is required for the first build and may become permanent
 - **Concept not committed**:
   - Current design needs refinement
