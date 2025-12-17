@@ -4,10 +4,19 @@ This log documents progress as this machine evolves
 
 ## 2025-12-16
 ---
-- Designed bottom frame stiffeners that serve both their purpose and as a place holder for a drop in deck panel
-- Deck panel needs to be easily removable for electronics access, should drop in, and pull / flip up for easy electronics access - inverted electronics for the beauty of it, but designed to be accessible, propably permanently designed that way, but required for first built.
-- Did not commit - concept needs work, needs to stiffen frame, server as a basic panel mount, but not interfere with the Voron design to hold the Z motors. There is no reason to redesign these. 
-- Cannot make deck panel too complicated to cut. 
+- Designed initial **bottom frame stiffeners** intended to both increase frame rigidity and act as a **drop-in deck panel support**
+- Defined deck panel requirements:
+  - Must be **easily removable** for electronics access
+  - Should **drop in** and allow **lift / flip-up access**
+  - Electronics will liy be **inverted-facing** for aesthetics, but must remain serviceable
+  - This orientation is required for the first build and may become permanent
+- **Concept not committed**:
+  - Current design needs refinement
+  - Must provide real frame stiffening- accomplished 
+  - Must function as a simple panel mounting system - accomplished but needs refinement
+  - Must **not interfere with existing Voron Z-motor mounting** (no redesign justified)
+- Deck panel design must remain **simple to manufacture** (easy to cut; no unnecessary complexity)
+
 
 ## 2025-12-14
 ---
