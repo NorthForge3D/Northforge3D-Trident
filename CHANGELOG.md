@@ -2,6 +2,27 @@
 All development updates for the Trident dual-gantry proof-of-concept platform.  
 This log documents progress as this machine evolves
 
+## 2025-12-17
+---
+
+- Redesigned and modified the **bottom front brackets**.  
+  - They now function as **frame stiffeners** and **bottom clear panel holders**.  
+  - Interface cleanly with **VORON motor mounts**.  
+  - Will print and physically validate this weekend.
+
+- Added **frame stiffeners along the rear X/Y** by duplicating the top bracket design.
+
+- Decided **no additional stiffening is required on the bottom**.  
+  - Skirts, motor mounts, and existing structure already contribute sufficient rigidity.
+
+- Ready to move on to **Electronics Bay / Skirts**, followed by a **working CAD gantry**.
+
+- Downloaded CAD for the **electronics boards selected for the first build**.
+
+- Added a detailed entry to **DESIGN-NOTES.md** covering current CAD, build, and kit-planning decisions:  
+  → [2025-12-17 – CAD Design & Build Decisions](./DESIGN-NOTES.md#2025-12-17---cad-design--build-decisions)
+
+
 ## 2025-12-16
 ---
 - Designed initial **bottom frame stiffeners** intended to both increase frame rigidity and act as a **drop-in deck panel support**
