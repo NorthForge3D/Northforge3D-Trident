@@ -9,8 +9,7 @@
 - This approach allows:
   - A **single source of truth** for skirts, electronics bay, gantry, and panels.
   - All parts to be designed together so **everything fits correctly by default**.
-  - Accurate, repeatable dimensions that can be provided directly to suppliers if we decide to offer this printer as a **build kit**  
-    (e.g. *cut to this length, drill here*).
+  - Accurate, repeatable dimensions that can be provided directly to suppliers if we decide to offer this printer as a **build kit** (e.g. *cut to this length, drill here*).
 
 - The gantry CAD will be designed **with motion constraints**, allowing motion to be tested in CAD before committing parts to a physical printer.
 
