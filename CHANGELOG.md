@@ -19,8 +19,7 @@ This log documents progress as this machine evolves
 
 - Downloaded CAD for the **electronics boards selected for the first build**.
 
-- Added a detailed entry to **DESIGN-NOTES.md** covering current CAD, build, and kit-planning decisions:  
-  → [2025-12-17 – CAD Design & Build Decisions](./DESIGN-NOTES.md#2025-12-17---cad-design--build-decisions)
+- Added a detailed entry to **DESIGN-NOTES.md** covering current CAD, build, and kit-planning decisions:[2025-12-17 – CAD Design & Build Decisions](./DESIGN-NOTES.md#2025-12-17---cad-design--build-decisions)
 
 ## 2025-12-16
 ---
