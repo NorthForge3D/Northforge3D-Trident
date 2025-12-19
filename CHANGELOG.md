@@ -1,37 +1,55 @@
 ## Design notes added 2025-11-25. Gives a place to share thoughts when we edit CHANGELOG.MD and a place to show people why we chose X or Y.
 
-## 2025-12-17 – CAD Design & Build Decisions
+## 2025-12-18
+---
+- Moved the frame, gantry, and electronics into a new CAD file:  
+  **NF3D-Frame-Electronics-Gantry.f3D**
+- Removed all parts not required for this portion of the CAD
+  - Work will now focus only on the larger structural and system-level modifications
+  - Electronics were intentionally kept and will be flipped, repositioned, and reorganized
+  - New skirts will be designed to support:
+    - An inset bottom panel
+    - Support for 2–3 DIN rails
+    - A Pi pass-through design to allow USB / HDMI access from outside the printer
+- Updated **DESIGN-NOTES.md** with rationale and design decisions  
+  → See: **[2025-12-18 – New CAD and Decisions](DESIGN-NOTES.md#2025-12-18---new-cad-and-decisions)**
 
-- For the electronics bay, it will be simpler and cleaner to work from a **separate CAD file**.  
-  - This file will include the **full frame** and all **relevant structural reference parts**.  
-  - It will be expanded to the **standard build volume of 300 × 300 × 250**.
 
-- This approach allows:
-  - A **single source of truth** for skirts, electronics bay, gantry, and panels.
-  - All parts to be designed together so **everything fits correctly by default**.
-  - Accurate, repeatable dimensions that can be provided directly to suppliers if we decide to offer this printer as a **build kit** (e.g. *cut to this length, drill here*).
+## 2025-12-17
+---
 
-- The gantry CAD will be designed **with motion constraints**, allowing motion to be tested in CAD before committing parts to a physical printer.
+- Redesigned and modified the **bottom front brackets**.  
+  - They now function as **frame stiffeners** and **bottom clear panel holders**.  
+  - Interface cleanly with **VORON motor mounts**.  
+  - Will print and physically validate this weekend.
 
-- I may build this printer **twice**, in parallel, specifically for video documentation.  
-  - I already have enough extrusion to support this, assuming I don’t make excessive bad cuts or drilling mistakes.
+- Added **frame stiffeners along the rear X/Y** by duplicating the top bracket design.
 
-- Reasoning:
-  - When it comes time to cover electronics in video, running **48V and 24V rails simultaneously** is likely too much for most builders.
-  - It increases complexity and frustration, and adds significant cost.
-  - That setup makes sense for my **test rig**, and I may still document it on the blog and in advanced videos.
-  - However, for **how-to and build-guide videos**, a simpler, more approachable configuration is the better teaching choice.
+- Decided **no additional stiffening is required on the bottom**.  
+  - Skirts, motor mounts, and existing structure already contribute sufficient rigidity.
 
-- The **second build** will:
-  - Omit the frame stiffeners.
-  - Use a more conservative, builder-friendly electronics setup.
+- Ready to move on to **Electronics Bay / Skirts**, followed by a **working CAD gantry**.
 
-- Saner electronics options under consideration for the second build:
-  1. **Mellow High-Speed Super 8 Pro (3 + 5 HV)**
-  2. **Makerbase SKIPR all-in-one board**
-  3. **400W 24V power supply**
+- Downloaded CAD for the **electronics boards selected for the first build**.
 
-- These components will need to be tested for **repeatability and long-term reliability** before being considered for inclusion in any future kits.
+- Added a detailed entry to **DESIGN-NOTES.md** covering current CAD, build, and kit-planning decisions:  
+  → [2025-12-17 – CAD Design & Build Decisions](./DESIGN-NOTES.md#2025-12-17---cad-design--build-decisions)
+
+## 2025-12-16
+---
+- Designed initial **bottom frame stiffeners** intended to both increase frame rigidity and act as a **drop-in deck panel support**
+- Defined deck panel requirements:
+  - Must be **easily removable** for electronics access
+  - Should **drop in** and allow **lift / flip-up access**
+  - Electronics will likely be **inverted-facing** for aesthetics, but must remain serviceable
+  - This orientation is required for the first build and may become permanent
+- **Concept not committed**:
+  - Current design needs refinement
+  - Must provide real frame stiffening — **accomplished**
+  - Must function as a simple panel mounting system — **accomplished, but needs refinement**
+  - Must **not interfere with existing Voron Z-motor mounting** (no redesign justified)
+- Deck panel design must remain **simple to manufacture** (easy to cut; no unnecessary complexity)
+
 
 ## 2025-12-14
 

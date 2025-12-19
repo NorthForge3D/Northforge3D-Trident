@@ -1,5 +1,30 @@
 ## Design notes added 2025-11-25. Gives a place to share thoughts when we edit CHANGELOG.MD and a place to show people why we chose X or Y.
 
+## 2025-12-18 – New CAD and Decisions
+
+- The Trident is built very bed-forward, so the gantry will need to be rotated sideways.
+- This orientation reduces X/Y volume loss.  
+  If a second gantry were added in the same orientation, we would lose:
+  - The depth of the gantry rail
+  - The printhead offset
+  - Additional space for belts and the X pulley system
+- Rotating the gantry preserves more usable X/Y volume and simplifies future expansion.
+
+- Decided to use switching power supplies for this build.
+  - Ordered **two 500W, 0–60V Hongpoe PSUs**
+  - These are not as trustworthy as Mean Well units, but with a 4.8 rating and 300+ reviews on AliExpress, they should be sufficient for testing and development
+  - Voltages will be tested and verified before connecting to any control boards
+
+- Using switching PSUs allows flexibility as the system evolves:
+  - Start with a standard 24V Klipper configuration using dual PSUs
+  - Transition to 48V on the X/Y/Z rails once the dual gantry is printing reliably
+  - Voltage headroom exists to go higher (up to ~56V if ever needed)
+    - Not currently required, but the option exists
+    - Control boards and drivers are capable of handling 60V max
+
+→ Related log entry: **[CHANGELOG – 2025-12-18](CHANGELOG.md#2025-12-18)**
+
+
 ## 2025-12-17 – CAD Design & Build Decisions
 
 - For the electronics bay, it will be simpler and cleaner to work from a **separate CAD file**.
