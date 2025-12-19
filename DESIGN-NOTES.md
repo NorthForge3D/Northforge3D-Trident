@@ -22,7 +22,7 @@
     - Not currently required, but the option exists
     - Control boards and drivers are capable of handling 60V max
 
-### Why This Matters
+### Why This (NEW CAD) Matters
 
 - Creating a dedicated frame / gantry / electronics CAD allows the project to move to a **true 300 × 300 × 250 build volume**, instead of being constrained by the original Trident 250 × 250 × 250 layout.
 - Working at the correct size enables:
