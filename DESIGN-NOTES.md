@@ -22,8 +22,24 @@
     - Not currently required, but the option exists
     - Control boards and drivers are capable of handling 60V max
 
-→ Related log entry: **[CHANGELOG – 2025-12-18](CHANGELOG.md#2025-12-18)**
+### Why This Matters
 
+- Creating a dedicated frame / gantry / electronics CAD allows the project to move to a **true 300 × 300 × 250 build volume**, instead of being constrained by the original Trident 250 × 250 × 250 layout.
+- Working at the correct size enables:
+  - Proper electronics layout at full scale
+  - Skirts designed to the final footprint
+  - Accurate DIN rail placement and power distribution planning
+- This file also allows the **dual-gantry system to be designed and validated as a movable, working assembly** in CAD, at the correct size, before any physical assembly begins.
+- Resizing and reworking the original Trident CAD would be slow and inefficient:
+  - The file contains 300+ parts
+  - Rescaling the frame, flipping X rails, reworking the gantry, and adding a second gantry would take 1–2 days just to reach a usable state
+- Starting fresh with a purpose-built CAD significantly reduces friction:
+  - Frame resize, electronics flip, and DIN-based layout can be completed in 2–4 days
+  - Motion systems can be developed and tested in isolation without fighting the full Trident assembly
+- Working in a smaller, focused CAD eliminates constant hide/show management of dozens of unrelated components, allowing faster iteration and clearer decision-making.
+- This approach trades sentimental continuity for **speed, correctness, and forward momentum**, which is critical at this stage of the project.
+
+→ Related log entry: **[CHANGELOG – 2025-12-18](CHANGELOG.md#2025-12-18)**
 
 ## 2025-12-17 – CAD Design & Build Decisions
 
