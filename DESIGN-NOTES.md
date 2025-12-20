@@ -1,5 +1,32 @@
 ## Design notes added 2025-11-25. Gives a place to share thoughts when we edit CHANGELOG.MD and a place to show people why we chose X or Y.
 
+## 2025-12-19 – Gantry Design Thoughts
+
+- Frame expansion is complete.
+- Next step is to expand, flip, and install the gantry correctly in CAD.
+
+- The Trident gantry is currently linked as one solid piece.
+  - It will need to be broken apart so individual components can be positioned correctly.
+  - Single parts must be moved into place to create a proper, functioning motion system.
+
+- For portions of the gantry work, it may be easier to source working CAD rather than fight what currently exists.
+  - Example: MGN rails and blocks.
+    - These must behave correctly in CAD.
+    - I need to be able to grab a carriage block and have it move accurately along the rail.
+    - Eventually, I should be able to grab a printhead and move it in CAD.
+    - Belts, pulleys, and idlers must respond correctly so the full motion system is represented accurately.
+
+- There is no reason to redesign Trident gantry mounts.
+  - The design already works and is proven.
+  - The task is to disassemble the existing CAD assembly and reassemble it piece-by-piece on the expanded gantry rails.
+  - This includes adding correct motion behavior to idler pulleys, timing pulleys, and bearings.
+
+- All of this work is necessary to properly prove the gantry and motion system in CAD before moving forward.
+
+(See **CHANGELOG.md → 2025-12-19 – Expand Exterior Frame in CAD**)
+
+
+
 ## 2025-12-18 – New CAD and Decisions
 
 - The Trident is built very bed-forward, so the gantry will need to be rotated sideways.

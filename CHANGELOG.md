@@ -1,5 +1,20 @@
 ## Design notes added 2025-11-25. Gives a place to share thoughts when we edit CHANGELOG.MD and a place to show people why we chose X or Y.
 
+## 2025-12-19 – Expand Exterior Frame in CAD
+
+- Working in the new CAD, expanded the exterior frame to proper dimensions for a 300 × 300 × 250 build volume
+- Exterior frame is now correctly sized at **460 × 460 × 500 (H)**
+- All frame joints are now rigid, making this a true structural frame rather than loose extrusions
+- Electronics planning update:
+  - Ordered DIN rails, terminal distribution blocks, and DIN-mounted AC and DC fuse holders
+  - This will allow for a much cleaner, more serviceable, and showpiece-level electronics bay
+
+**Next steps:**
+- Expand remaining aluminum frame components
+- Expand and place the gantry
+- See **DESIGN-NOTES.md → 2025-12-19 – Gantry Design Thoughts**
+
+
 ## 2025-12-18
 ---
 - Moved the frame, gantry, and electronics into a new CAD file:  
