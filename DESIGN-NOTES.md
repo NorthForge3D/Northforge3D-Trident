@@ -23,7 +23,8 @@
 
 - All of this work is necessary to properly prove the gantry and motion system in CAD before moving forward.
 
-(See **CHANGELOG.md → 2025-12-19 – Expand Exterior Frame in CAD**)
+(See **[CHANGELOG.md → 2025-12-19 – Expand Exterior Frame in CAD](CHANGELOG.md#2025-12-19--expand-exterior-frame-in-cad)**)
+
 
 
 

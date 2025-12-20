@@ -1,4 +1,4 @@
-## Design notes added 2025-11-25. Gives a place to share thoughts when we edit CHANGELOG.MD and a place to show people why we chose X or Y.
+## CHANGES MADE, SOMETIMES WHY, WHAT WE DID - WHEN... The changes as we progress
 
 ## 2025-12-19 – Expand Exterior Frame in CAD
 
@@ -12,7 +12,8 @@
 **Next steps:**
 - Expand remaining aluminum frame components
 - Expand and place the gantry
-- See **DESIGN-NOTES.md → 2025-12-19 – Gantry Design Thoughts**
+- See **[DESIGN-NOTES.md → 2025-12-19 – Gantry Design Thoughts](DESIGN-NOTES.md#2025-12-19--gantry-design-thoughts)**
+
 
 
 ## 2025-12-18
