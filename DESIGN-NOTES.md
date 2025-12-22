@@ -1,4 +1,14 @@
-## Design notes added 2025-11-25. Gives a place to share thoughts when we edit CHANGELOG.MD and a place to show people why we chose X or Y.
+# DESIGN NOTES
+
+Design Notes exist to capture **why** decisions were made, not just **what** was done.
+
+While `CHANGELOG.md` records concrete actions and visible progress, this file documents the reasoning, tradeoffs, constraints, and forward-looking thoughts that led to those actions. Together, they form a linked record:
+
+- **CHANGELOG.md** → what was built, changed, or tested  
+- **DESIGN-NOTES.md** → why those choices were made, and what alternatives were considered
+
+Entries here may include incomplete ideas, exploratory thinking, or decisions that evolve over time. That is intentional. This file is a living design journal meant to provide context for future work, explain past decisions to collaborators or builders, and make the project’s direction understandable long after individual commits are forgotten.
+
 
 ## 2025-12-21 – Design Thoughts – CAD and Control Systems
 ↔ See related implementation work in [CHANGELOG.md – 2025-12-21](CHANGELOG.md#2025-12-21--motion-rails-and-electronics-kit-cad)

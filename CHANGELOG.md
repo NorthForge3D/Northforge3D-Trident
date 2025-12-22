@@ -1,4 +1,17 @@
-## CHANGES MADE, SOMETIMES WHY, WHAT WE DID - WHEN... The changes as we progress
+# CHANGELOG
+
+The changelog records **what changed and when** as the project progresses.
+
+This file focuses on concrete actions: CAD work completed, parts created or modified, files added or removed, and decisions that materially affected the state of the project. Entries are chronological and factual by design.
+
+When important design rationale, tradeoffs, or forward-looking thinking influenced a change, those details are captured in **DESIGN-NOTES.md**, and entries here link back to the corresponding design notes where appropriate.
+
+Together:
+- **CHANGELOG.md** documents *what was done*
+- **DESIGN-NOTES.md** explains *why it was done*
+
+Both are maintained intentionally to preserve context, trace decisions, and make the project understandable to future contributors, builders, or reviewers.
+
 
 ## 2025-12-21 – Motion Rails and Electronics Kit (CAD)
 ↔ See related design thoughts in [DESIGN-NOTES.md – 2025-12-21](DESIGN-NOTES.md#2025-12-21---design-thoughts---cad-and-control-systems)
