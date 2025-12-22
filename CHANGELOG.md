@@ -1,5 +1,25 @@
 ## CHANGES MADE, SOMETIMES WHY, WHAT WE DID - WHEN... The changes as we progress
 
+## 2025-12-21 – Motion Rails and Electronics Kit (CAD)
+↔ See related design thoughts in [DESIGN-NOTES.md – 2025-12-21](DESIGN-NOTES.md#2025-12-21---design-thoughts---cad-and-control-systems)
+
+- Began creating the foundations of the motion system to allow the gantry to be expanded to the newly defined, properly sized frame.
+  - Created **MGN9 rails and MGN9H blocks** in CAD.
+    - Fully parametric
+    - Assembled with proper motion constraints (blocks slide on rails)
+  - Created **MGN12 rails and MGN12H blocks** in CAD.
+    - Fully parametric
+    - Assembled with proper motion constraints
+- Began locating and importing representative electronics components for the electronics bar:
+  - **BTT Octopus Pro v1.1** imported and positioned in CAD
+  - **Raspberry Pi 4** imported and positioned in CAD
+  - **Two representative power supplies** imported and positioned in CAD
+- CAD was **not committed** today.
+  - No meaningful architectural changes were made
+  - This work focused on creating prerequisite parts required for the next design step
+- Design rationale and system-level thinking captured in **DESIGN-NOTES.md**
+
+
 ## 2025-12-19 – Expand Exterior Frame in CAD
 
 - Working in the new CAD, expanded the exterior frame to proper dimensions for a 300 × 300 × 250 build volume

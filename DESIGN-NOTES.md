@@ -1,5 +1,55 @@
 ## Design notes added 2025-11-25. Gives a place to share thoughts when we edit CHANGELOG.MD and a place to show people why we chose X or Y.
 
+## 2025-12-21 – Design Thoughts – CAD and Control Systems
+↔ See related implementation work in [CHANGELOG.md – 2025-12-21](CHANGELOG.md#2025-12-21--motion-rails-and-electronics-kit-cad)
+
+- Created motion rails in CAD and made them fully parametric so rail length can be adjusted easily while preserving motion constraints.
+- No need to commit CAD on days like this.
+  - Built supporting components
+  - Imported reference electronics
+  - No meaningful structural changes were made to CAD that lives in the repo
+  - These are preparatory pieces required to continue design work cleanly
+- For some imported CAD components, the models will need to be simplified.
+  - Example: the **Biqu Octopus CAD** is a full, component-level electronics model
+  - I do not need resistor-, IC-, or component-level detail
+  - I only need:
+    - Dimensionally accurate representations
+    - Correct mounting geometry
+    - Visual references for DIN rail placement and clearances
+  - I am not wiring electronics in CAD
+- Could not find CAD for the exact planned power supplies.
+  - Used manufacturer dimensions to import a **Mean Well PSU** with closely matching dimensions
+  - Dimensional accuracy matters for DIN rail mounts and placement
+  - The full electronic detail does not matter here
+
+- Spent time evaluating the current state of **Klipper and its forks**.
+  - Thinking through how this system will ultimately work:
+    - Two print heads “dancing”
+    - Two heads printing a single part
+    - Guaranteed non-collision behavior
+  - May use **Kalico** for the first printer.
+    - I believe I can demonstrate the concept largely through configs and macros
+    - I built it, I understand it, and I won’t break it
+  - Before releasing this as a kit—or releasing **The Deuce** as a production unit—I may need to fork **Klipper or Kalico**.
+    - Collision avoidance for a dual-gantry system must live in the motion control software itself
+    - It cannot live in:
+      - G-code
+      - The slicer
+      - Config-only logic
+    - A kit that relies solely on configuration-based collision avoidance will eventually be broken by users modifying configs
+    - That results in broken machines
+  - **The Deuce** is intended to be:
+    - Expandable
+    - Serviceable
+    - Reliable
+  - If adding or modifying a component can break the machine due to a configuration mistake, that is unacceptable
+  - This will need to be revisited as we move through:
+    - Mirror mode
+    - Independent dual-head printing
+    - Dual-color modes
+    - Dual-material modes
+  - A decision will need to be made, and the safest long-term solution for a kit or production machine is to make collision avoidance part of the system that directly drives the motors
+
 ## 2025-12-19 – Gantry Design Thoughts
 
 - Frame expansion is complete.
