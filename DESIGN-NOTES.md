@@ -26,7 +26,7 @@ Entries here may include incomplete ideas, exploratory thinking, or decisions th
       for a side-to-side gantry configuration
     - Several possible approaches to address this:
       - Flip bed motors side-to-side and add an additional frame crosspiece
-        to support the single rear motor
+        to support the single now side mounted motor
       - Redesign gantry mounts so the gantries ride on MGN9 rails mounted
         on top of the 2020 extrusion instead of hanging below
       - Do not flip the gantry at all:

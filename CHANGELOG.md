@@ -20,7 +20,7 @@ Both are maintained intentionally to preserve context, trace decisions, and make
   - Drilled new holes and moved the gantry rails to the front and back
   - Identified multiple issues that will need to be addressed for this approach to work:
     - Bed will need to be moved further back (more centralized in the frame)
-    - Rear Z MGN rail / support will need to be moved inward **or**
+    - Rear Z MGN rail / support will need to be moved inward or
       an additional rear frame crosspiece added below the rear gantry rail
     - In practice, **both changes will likely be required** — see Design Notes
 
