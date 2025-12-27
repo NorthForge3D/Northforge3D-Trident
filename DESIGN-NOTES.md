@@ -9,6 +9,51 @@ While `CHANGELOG.md` records concrete actions and visible progress, this file do
 
 Entries here may include incomplete ideas, exploratory thinking, or decisions that evolve over time. That is intentional. This file is a living design journal meant to provide context for future work, explain past decisions to collaborators or builders, and make the project’s direction understandable long after individual commits are forgotten.
 
+## 2025-12-27 - Gantry Thoughts, Bed Move
+
+> Related work logged in **[CHANGELOG.md — 2025-12-27](CHANGELOG.md#2025-12-27---working-on-gantry-parts-electronics)**
+
+- While working on flipping the gantry rails for a side-to-side dual gantry layout,
+  two major constraints became immediately apparent:
+
+  - **Bed placement**
+    - The bed is currently too far forward on the Trident frame
+    - For a dual gantry setup, the bed will need to move inward (more centralized)
+    - This will require redesigned bed mounts specific to this build
+
+  - **Rear Z rail / support structure**
+    - The current rear Z MGN rail and support design will not work as-is
+      for a side-to-side gantry configuration
+    - Several possible approaches to address this:
+      - Flip bed motors side-to-side and add an additional frame crosspiece
+        to support the single rear motor
+      - Redesign gantry mounts so the gantries ride on MGN9 rails mounted
+        on top of the 2020 extrusion instead of hanging below
+      - Do not flip the gantry at all:
+        - Keep the bed centralized
+        - Allow printheads to approach from front and back
+        - Likely the simplest solution, but **no commitment yet**
+
+- Began printing parts for a physical test gantry
+  - Original Trident A/B motor, pulley, and idler components
+  - ZRunchoes Trident-sized dual gantry parts
+    - These parts were designed for a different class of printer
+    - As far as I know, they have not been implemented on a Trident
+      despite being made parametric/resizable
+
+- Purpose of the test gantry
+  - Allows direct visualization of clearances and interference
+  - Enables testing belt routing, pulley placement, and gantry spacing
+  - Confirms feasibility before motors or final CAD are locked in
+  - Supports rapid iteration without risking the primary frame
+
+- Initial assessment
+  - There is still a strong possibility that the original Trident
+    A/B motor and pulley mounts can be retained
+  - Idlers will need to be relocated
+  - Physical assembly will determine whether this remains viable
+
+
 
 ## 2025-12-21 – Design Thoughts – CAD and Control Systems
 ↔ See related implementation work in [CHANGELOG.md – 2025-12-21](CHANGELOG.md#2025-12-21--motion-rails-and-electronics-kit-cad)

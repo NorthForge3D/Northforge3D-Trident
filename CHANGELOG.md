@@ -12,6 +12,36 @@ Together:
 
 Both are maintained intentionally to preserve context, trace decisions, and make the project understandable to future contributors, builders, or reviewers.
 
+## 2025-12-27 - Working on Gantry Parts, Electronics
+
+- See related design thoughts in **[DESIGN-NOTES.md — 2025-12-27](DESIGN-NOTES.md#2025-12-27---gantry-thoughts-bed-move)**
+
+- Started working on flipping the gantry for side-to-side dual gantry
+  - Drilled new holes and moved the gantry rails to the front and back
+  - Identified multiple issues that will need to be addressed for this approach to work:
+    - Bed will need to be moved further back (more centralized in the frame)
+    - Rear Z MGN rail / support will need to be moved inward **or**
+      an additional rear frame crosspiece added below the rear gantry rail
+    - In practice, **both changes will likely be required** — see Design Notes
+
+- Started printing test pieces
+  - Standard Trident A/B motor mounts and idler mounts
+  - ZRunchoes dual-gantry-related parts (Trident-sized variants)
+  - Building a physical test gantry to visualize layouts and interference
+  - Goal is to validate clearances, belt routing, and mounting before final CAD
+  - Enables rapid iteration: parts can be installed, evaluated, or discarded quickly
+
+- Began simplifying CAD models for electronics
+  - Example: Octopus Pro now represented as a dimensionally correct simplified model
+  - Color and envelope preserved for electronics bay layout
+  - Detailed board CAD removed where not needed
+
+- No CAD commits made yet
+  - Will commit once electronics bay and skirts are finalized
+  - Gantry and Z-axis modifications will be committed separately once resolved
+ 
+
+
 
 ## 2025-12-21 – Motion Rails and Electronics Kit (CAD)
 ↔ See related design thoughts in [DESIGN-NOTES.md – 2025-12-21](DESIGN-NOTES.md#2025-12-21---design-thoughts---cad-and-control-systems)
