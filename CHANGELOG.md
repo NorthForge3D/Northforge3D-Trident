@@ -12,6 +12,29 @@ Together:
 
 Both are maintained intentionally to preserve context, trace decisions, and make the project understandable to future contributors, builders, or reviewers.
 
+## 2025-12-28 – Skirts and Electronics
+
+- See related design thoughts in  
+  → [DESIGN-NOTES.md · 2025-12-28 – Design Decisions, Skirts, Electronics](DESIGN-NOTES.md#2025-12-28--design-decisions-skirts-electronics)
+
+- Started working on new skirts for inverted electronics and pass-through Pi
+  - Imported Trident skirts and separated out the pieces I will and won’t use
+  - Corner pieces are usable as-is
+  - Identified required changes:
+    - New front skirt to support an **external-mounted screen** (optional, not required for base build)
+    - Right-side skirt redesigned for **USB / Pi pass-through**
+    - Rear skirt redesigned for an **all-in-one module** (AC inlet + rocker switch)
+
+- Imported most electronics components into CAD:
+  - Mean Well LRS-350-48
+  - Mean Well RS-25-5
+  - 48V → 24V buck converter
+  - SSR and related hardware
+
+- Began printing frame stiffeners and gantry parts for visualization and fit testing
+
+
+
 ## 2025-12-27 - Working on Gantry Parts, Electronics
 
 - See related design thoughts in **[DESIGN-NOTES.md — 2025-12-27](DESIGN-NOTES.md#2025-12-27---gantry-thoughts-bed-move)**

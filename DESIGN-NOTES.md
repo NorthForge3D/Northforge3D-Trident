@@ -9,6 +9,42 @@ While `CHANGELOG.md` records concrete actions and visible progress, this file do
 
 Entries here may include incomplete ideas, exploratory thinking, or decisions that evolve over time. That is intentional. This file is a living design journal meant to provide context for future work, explain past decisions to collaborators or builders, and make the project’s direction understandable long after individual commits are forgotten.
 
+## 2025-12-28 – Design Decisions, Skirts, Electronics
+
+- After reviewing the current CAD more closely yesterday, I decided to **build the frame early**
+  for the test gantries and iterate the design around a physical reference.
+  - Ordered a new aluminum-specific mitre saw blade (old one was worn out; not available locally)
+  - Ordered an additional M6 tap for European-spec 2020 extrusions
+
+- Worked on CAD for skirts and the electronics bay
+  - Most skirts need modification so the **bottom panel seats into them** rather than bolting up to them
+  - Skirts must support **DIN rails** (three for this build) to keep wiring clean and visually organized
+  - Electronics cooling plan:
+    - Two intake fans (left and right) pulling in cooler room-temperature air
+    - One exhaust fan at the rear expelling warmer air
+  - Required skirt redesigns:
+    - One side skirt for **Pi pass-through**
+    - Left rear skirt for the **clip-in AC inlet / switch module** already on hand
+    - Center front skirt redesigned to include a **screen interface module**
+      - Screen will be optional and externally mounted
+      - Simple mechanical interface so the printed screen enclosure clips into place
+      - Possibly secured from the inside with fasteners
+
+- Started printing parts for **test gantry one and two**
+- Also began printing parts for the actual Trident build
+  - A/B brackets
+  - Idler pulley brackets
+  - Having a real frame to work against will greatly improve visualization and iteration speed
+
+- Frame build documentation plan:
+  - Capture and record useful processes for other builders:
+    - Cutting aluminum extrusion
+    - Drilling for blind corners
+    - Tapping techniques
+    - General frame prep and accuracy tips (Squaring,etc )
+- Related build progress logged in  
+  → [CHANGELOG.md · 2025-12-28 – Skirts and Electronics](CHANGELOG.md#2025-12-28--skirts-and-electronics)
+
 ## 2025-12-27 - Gantry Thoughts, Bed Move
 
 > Related work logged in **[CHANGELOG.md — 2025-12-27](CHANGELOG.md#2025-12-27---working-on-gantry-parts-electronics)**
