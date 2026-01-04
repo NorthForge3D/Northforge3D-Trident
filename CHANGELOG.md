@@ -12,6 +12,32 @@ Together:
 
 Both are maintained intentionally to preserve context, trace decisions, and make the project understandable to future contributors, builders, or reviewers.
 
+## 2025-01-03
+*(Related entry: [DESIGN-NOTES.md — 2025-01-03](DESIGN-NOTES.md#2025-01-03---slow-progress-ideas-coming-together))*
+
+- Continued work on redesigned skirts.
+  - Corner blocks will be similar in concept to the **top frame stiffeners**.
+    - Extend **60mm outward** from each corner.
+    - Include **two M5 bolts into T-nuts** per rail (4 total) to clamp the frame tightly.
+    - Each corner includes an interface to accept the next rail section.
+
+  - Skirt pieces will bolt **to each other** and **to the frame** for added rigidity.
+
+  - Bottom of skirts includes a **5mm inset**.
+    - Electronics panel will sit inside this inset.
+    - On the first printer, this panel will be made from **1/4\" Lexan**.
+
+  - Electronics panel mounting strategy:
+    - Panel is held upward into the skirts using brackets.
+    - Two brackets per side, plus additional attachment near the corner feet.
+
+  - Corner feet design:
+    - ABS bracket bolted into the corner to support the electronics panel.
+    - TPU foot approximately **10mm thick** for vibration isolation and grip.
+
+- See corresponding **design rationale and planning notes** in the linked Design Notes entry above.
+
+
 ## 2025-12-28 – Skirts and Electronics
 
 - See related design thoughts in  

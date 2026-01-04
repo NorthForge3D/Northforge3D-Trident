@@ -9,6 +9,31 @@ While `CHANGELOG.md` records concrete actions and visible progress, this file do
 
 Entries here may include incomplete ideas, exploratory thinking, or decisions that evolve over time. That is intentional. This file is a living design journal meant to provide context for future work, explain past decisions to collaborators or builders, and make the project’s direction understandable long after individual commits are forgotten.
 
+## 2025-01-03 - Slow progress, ideas coming together
+*(Related entry: [CHANGELOG.md — 2025-01-03](CHANGELOG.md#2025-01-03))*
+
+- Spent the past couple of evenings working on skirts.
+  - Finalized the electronics bay concept: a single removable panel with **three DIN rails**.
+    - DIN rails are bolted to the panel via an **ABS interface**, holding the rails **15mm off the panel** to allow wire routing underneath.
+    - Printed wiring channels between DIN rails, evenly spaced at **three locations** (front, middle, back).
+      - Channels are printed in ABS and include pass-through ports for clean wire entry and exit.
+
+- Corner skirts are intended to **add structural rigidity** to the frame — stiffer is better for this printer.
+  - Design is still in progress for all skirt components and will be uploaded once complete.
+
+- Set up the saw with the correct **aluminum-specific blade** and added a clamping system for accurate, repeatable cuts.
+  - This portion of the build could be completed at the shop, but I cannot record anything there.
+    - Documenting processes like *cutting extrusions*, *tapping extrusions*, and *drilling blind corners* will still be valuable to the community,
+      even if kit builders won’t need to perform these steps themselves.
+
+- Started printing gantry parts (A/B drives, etc.).
+  - **Estimated timelines:**
+    - CAD completion for skirts and electronics bay: **~1 week**
+    - First frame build / test frame for gantry parts: **~1 week**
+    - After that, we can build, test, and redesign specific **dual-gantry drive systems** on a physical frame.
+
+
+
 ## 2025-12-28 – Design Decisions, Skirts, Electronics
 
 - After reviewing the current CAD more closely yesterday, I decided to **build the frame early**
