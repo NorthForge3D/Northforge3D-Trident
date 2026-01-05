@@ -12,6 +12,36 @@ Together:
 
 Both are maintained intentionally to preserve context, trace decisions, and make the project understandable to future contributors, builders, or reviewers.
 
+## 2023-01-04 — Frame cut, STL folder added
+
+### Frame Preparation
+- Cut all aluminum frame extrusions to final size.
+  - Frame geometry remains identical to the original Voron Trident.
+  - Overall height reduced by **50 mm** for this build.
+  - Used **vorondesign.com** to derive the full cut list from Misumi part numbers.
+  - All 2020 extrusions cut to length.
+
+### Jigs & Tooling
+- Designed custom CAD drilling jigs for:
+  - Blind corner holes
+  - Gantry mounting holes at precise offsets from the top of the frame
+- Printed all required drilling jigs.
+
+### Repository Structure
+- Added `STL/` folder to the repository.
+  - This directory will house all validated and tested STL files.
+  - Current structure:
+    - `STL/Frame/` — frame stiffener parts
+    - `STL/Tools/` — drilling and alignment jigs
+  - Added README files to `STL/` and all subdirectories.
+
+### Documentation & Media
+- No updates to `DESIGN-NOTES.md` tonight.
+  - Frame design rationale was fully captured in the previous entry.
+- Recorded a video documenting the 2020 extrusion cutting process.
+  - Video will be published to the YouTube channel tomorrow or the following day.
+
+
 ## 2025-01-03
 *(Related entry: [DESIGN-NOTES.md — 2025-01-03](DESIGN-NOTES.md#2025-01-03---slow-progress-ideas-coming-together))*
 
