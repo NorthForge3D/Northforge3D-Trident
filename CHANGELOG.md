@@ -12,7 +12,27 @@ Together:
 
 Both are maintained intentionally to preserve context, trace decisions, and make the project understandable to future contributors, builders, or reviewers.
 
-## 2023-01-04 — Frame cut, STL folder added
+## 2026-01-06 — Updates / Videos
+
+- Continued work on printer skirt design
+  - Switched to a modular skirt system
+  - Corner pieces completed; designed to add stiffness at the lower frame
+  - Side skirts designed as interchangeable modules
+    - Three repeatable sections between each corner
+    - Center section can be swapped (e.g. no screen, alternate panel)
+    - Front pass-through ports can be relocated by swapping modules
+    - All skirt modules interface identically for flexible configuration
+
+- Cut the printer frame extrusions
+  - Tapping, drilling, and final prep still pending
+
+- Started a new YouTube series: *How to Build Your Own 3D Printer Frame*
+  - Intro video published explaining how to derive frame dimensions from the Voron BOM
+  - Playlist created to document the full cut / drill / tap / assembly process
+  - Video: https://www.youtube.com/watch?v=7mM1ULKVuBA
+
+
+## 2026-01-04 — Frame cut, STL folder added
 
 ### Frame Preparation
 - Cut all aluminum frame extrusions to final size.
