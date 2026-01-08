@@ -12,6 +12,30 @@ Together:
 
 Both are maintained intentionally to preserve context, trace decisions, and make the project understandable to future contributors, builders, or reviewers.
 
+## 2026-01-07 — Skirt Work
+
+- Continued work on the skirt system
+  - Began designing a **three-piece, between-the-corners skirt system**
+    - Once a single block is finalized, skirts can be printed in that form
+    - Three skirt pieces between each corner block
+    - Planned variants:
+      - Pi passthrough section
+      - AC inlet / switch section
+      - Screen mount section
+    - Current design targets **300 mm build size only**
+    - All pieces:
+      - Friction-fit using designed tabs
+      - Bolt to the bottom frame
+      - Bolt into the corner blocks
+      - Considering a simple one- or two-bolt skirt-to-skirt connection using heat-set inserts to reduce flex and prevent the skirt from feeling flimsy when lifting the printer
+
+  - Corner block (blank version) is printing to validate:
+    - Overall size and proportions
+    - Bulk vs. stiffness balance
+    - Intended to add bottom-frame stiffness without excessive bulk
+    - Design can still be easily adjusted before completing the remaining skirt components
+
+
 ## 2026-01-06 — Updates / Videos
 
 - Continued work on printer skirt design
