@@ -9,6 +9,48 @@ While `CHANGELOG.md` records concrete actions and visible progress, this file do
 
 Entries here may include incomplete ideas, exploratory thinking, or decisions that evolve over time. That is intentional. This file is a living design journal meant to provide context for future work, explain past decisions to collaborators or builders, and make the project’s direction understandable long after individual commits are forgotten.
 
+## 2025-01-08 — Skirt / Corner Block Thoughts
+
+- Printed the first corner block to confirm the STL
+  - Part is confirmed
+  - Slight design changes are needed to make it printable by less-capable printers
+
+- Venting considerations:
+  - Venting at the corners likely isn’t necessary
+  - Venting through the skirts isn’t necessary on this printer
+  - The printer has active fans to move air
+  - Electronics bay is inverted and a good distance from the heated bed
+  - Three fans are planned
+  - Skirts are modular — others can add more fans if they choose
+
+- Design changes:
+  - Add chamfers and an inset panel to make corner blocks more printable
+  - Add logos to the front corner blocks
+    - NF3D logo on one side
+    - Voron logo on the other
+    - I’m changing a lot — it’s my printer now — but it started as a Trident and will remain the NF3D Trident
+
+- Content / documentation:
+  - Reviewed Part 2 in the **How to Build a 3D Printer Frame** playlist
+  - Added a blog post to more clearly explain the cutting process
+  - Linked the article at the top of the video description:  
+    http://northforge3d.com/forge-updates/3d-printing-tutorials/how-to-cut-2020-aluminum-extrusion-for-a-3d-printer-frame/
+
+- Hardware notes:
+  - May need to bring one of the larger Vorons home from the shop
+    - The Voron 0.2 isn’t large enough for some upcoming parts
+    - The SOVOL experienced a clog
+      - Reinstalled the MicroSwiss hotend
+      - Ordered additional 0.4 mm hardened nozzles (arriving Monday)
+      - Ordered an additional MicroSwiss hotend with 0.6 mm and 0.4 mm hardened nozzles
+      - Original MicroSwiss hotend is likely approaching 600–800 hours
+
+- Summary entry for this work is recorded in  
+  [CHANGELOG.md — 2026-01-08](CHANGELOG.md#2026-01-08--confirming--unconfirming-parts--cut-video-posted)
+
+
+
+
 ## 2025-01-03 - Slow progress, ideas coming together
 *(Related entry: [CHANGELOG.md — 2025-01-03](CHANGELOG.md#2025-01-03))*
 

@@ -12,6 +12,27 @@ Together:
 
 Both are maintained intentionally to preserve context, trace decisions, and make the project understandable to future contributors, builders, or reviewers.
 
+## 2026-01-08 — Confirming / Unconfirming Parts · Cut Video Posted
+
+- Printed the first corner block to confirm it isn’t too bulky
+  - Confirmed dimensionally correct
+  - Heat-set inserts will work
+  - Interface with skirts will work
+  - Minor design changes needed
+    - Larger vent holes intended for airflow (the skirts will not be vented here) resulted in a 30–40 mm bridge regardless of print orientation
+      - Normally this is considered carefully during design; this was overlooked
+      - The part printed successfully anyway, but printers not tuned for bridging would likely struggle
+        - Venting here is unnecessary — replace with chamfers and an inset panel
+        - This also creates a good location for logos or design elements
+
+- Posted Part 2 of the YouTube series **How to Build a 3D Printer Frame**:  
+  https://www.youtube.com/watch?v=fNyRXwP5xbI
+
+- Detailed design thoughts and decisions for today are documented in  
+  [DESIGN-NOTES.md — 2025-01-08](DESIGN-NOTES.md#2025-01-08--skirt--corner-block-thoughts)
+
+
+
 ## 2026-01-07 — Skirt Work
 
 - Continued work on the skirt system
