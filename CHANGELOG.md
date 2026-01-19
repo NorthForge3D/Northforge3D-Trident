@@ -17,8 +17,8 @@ Both are maintained intentionally to preserve context, trace decisions, and make
 - Brief hiatus to repair a required printer for this project (lost ~1 week)
   - Burned out a control board (operator error)
     - Replaced with an MKS SKIPR
-    - Not documented well / at all for this printer
-      - Made configs from scratch - took time. 
+    - Poorly documented for this printer
+      - Configurations built from scratch, which took additional time
   - Goal is to print the first modified bed mounts in PAHT-CF
   - Need to better understand annealing shrinkage/contraction so it can be accounted for in CAD
   - Voron 0.2 is operational again
@@ -32,7 +32,8 @@ Both are maintained intentionally to preserve context, trace decisions, and make
 - Added NF3D forge icon to the right front corner skirt block
   - Includes a separate insert intended to be printed in translucent filament and backlit
 
-- Voron version currently printing to confirm part
+- Voron version currently printing to confirm fit and finish
+
 
 ## 2026-01-08 — Confirming / Unconfirming Parts · Cut Video Posted
 
