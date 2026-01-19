@@ -12,6 +12,28 @@ Together:
 
 Both are maintained intentionally to preserve context, trace decisions, and make the project understandable to future contributors, builders, or reviewers.
 
+## 2025-01-18 — Logos Added to Corner Skirt Pieces
+
+- Brief hiatus to repair a required printer for this project (lost ~1 week)
+  - Burned out a control board (operator error)
+    - Replaced with an MKS SKIPR
+    - Not documented well / at all for this printer
+      - Made configs from scratch - took time. 
+  - Goal is to print the first modified bed mounts in PAHT-CF
+  - Need to better understand annealing shrinkage/contraction so it can be accounted for in CAD
+  - Voron 0.2 is operational again
+    - Swapped extruder motor to 0.9° stepper
+    - Retained Dragonfly BMO hotend and RepRap nozzle
+    - Currently printing very well with ASA-GF
+
+- Added Voron logo cutout to the left front corner skirt block
+  - Includes a separate insert intended to be printed in translucent filament and backlit
+
+- Added NF3D forge icon to the right front corner skirt block
+  - Includes a separate insert intended to be printed in translucent filament and backlit
+
+- Voron version currently printing to confirm part
+
 ## 2026-01-08 — Confirming / Unconfirming Parts · Cut Video Posted
 
 - Printed the first corner block to confirm it isn’t too bulky
