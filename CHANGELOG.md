@@ -12,6 +12,40 @@ Together:
 
 Both are maintained intentionally to preserve context, trace decisions, and make the project understandable to future contributors, builders, or reviewers.
 
+## 2025-01-21 — Skirts in CAD, PAHT-CF Testing
+
+- Placed all corner blocks for skirts correctly in CAD
+  - Front Left — Voron Logo Cutout Block  
+    - Printed and verified
+  - Front Right — NF3D Icon Logo Cutout Block  
+    - Printed and verified  
+    - Current version requires supports; will likely simplify geometry to make printing easier for others
+
+- Designed outline of the first modular skirt system
+  - Three skirt segments per side, ~110 mm each, between corner blocks
+  - All skirt segments bolt together using heat inserts and M3 fasteners
+  - Outer skirt segments bolt to corner blocks using heat inserts and M3 fasteners
+
+- Printed first controlled test set to evaluate **Elegoo PAHT-CF** material properties  
+  (see DESIGN-NOTES.md → *2025-01-21 – Skirt Design Thoughts, Bed Mount Design*)
+  - Two Orca tolerance test blocks (known, repeatable reference geometry)
+    - Used to evaluate 5 mm Allen key fit across multiple hole sizes
+    - Post-anneal fit will be compared to pre-anneal results
+  - Voron calibration cube (dimensionally measurable reference)
+  - Top frame stiffener
+    - Previously verified to print perfectly square on this printer
+    - Confirmed square with PAHT-CF using machinist square, and also measured using digital calipers
+    - Will be re-measured after annealing to confirm dimensional stability
+
+- First annealing batch
+  - Annealed at **200 °F (≈93 °C) for 4 hours**
+  - Conservative temperature/time chosen for initial characterization
+  - Goal is to determine:
+    - onset of shrinkage
+    - dimensional change behavior
+    - consistency across parts and geometries
+
+
 ## 2025-01-18 — Logos Added to Corner Skirt Pieces
 
 - Brief hiatus to repair a required printer for this project (lost ~1 week)

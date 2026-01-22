@@ -9,6 +9,29 @@ While `CHANGELOG.md` records concrete actions and visible progress, this file do
 
 Entries here may include incomplete ideas, exploratory thinking, or decisions that evolve over time. That is intentional. This file is a living design journal meant to provide context for future work, explain past decisions to collaborators or builders, and make the project’s direction understandable long after individual commits are forgotten.
 
+## 2025-01-21 — Skirt Design Thoughts, Bed Mount Design
+
+- Designing skirt pieces
+  - Bottom Lexan electronics panel will need to bolt to the skirts and corner blocks
+  - Corner blocks and skirts will include an inset to allow a flat bottom surface
+  - Interface will include designed components that bolt into the skirts and corner blocks to retain the electronics panel
+
+- Voron skirts are very open
+  - For the inverted electronics bay, temperature control is required
+  - Electronics bay is sealed from the chamber via the removable clear access panel
+  - Control board can measure its own temperature; no separate thermistor required
+  - Fans will control airflow
+  - Skirt pieces will be mostly closed to allow software-based temperature control of the electronics bay
+
+- Bed mount redesign
+  - Bed needs to move rearward by approximately 40 mm
+  - First revision must prioritize maximum stiffness
+  - PAHT-CF will be used for initial bed mounts
+    - Printable — confirmed
+    - Shrinkage and annealing behavior must be characterized
+    - First test batch is currently annealing
+      - If dimensional changes are consistent across batches, compensation can be applied in CAD to ensure accurate final parts
+
 
 ## 2025-01-08 — Skirt / Corner Block Thoughts
 
