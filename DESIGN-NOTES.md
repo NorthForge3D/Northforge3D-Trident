@@ -9,6 +9,40 @@ While `CHANGELOG.md` records concrete actions and visible progress, this file do
 
 Entries here may include incomplete ideas, exploratory thinking, or decisions that evolve over time. That is intentional. This file is a living design journal meant to provide context for future work, explain past decisions to collaborators or builders, and make the project’s direction understandable long after individual commits are forgotten.
 
+## 2025-01-24 — Dual Gantry Trident: v1 Build Volume Decision (Reduced X)
+
+For the first dual-gantry Trident build, I am intentionally **accepting a reduced X build volume** rather than modifying the bed position, frame depth, or gantry geometry.
+
+With two toolheads sharing the X axis, a stock-geometry Trident naturally loses usable X travel equivalent to roughly one toolhead width. In this configuration, the expected expectation for v1 is approximately:
+
+- **~230 mm X**
+- **~300 mm Y**
+- **~200 mm Z**
+
+This is a deliberate choice.
+
+While there are multiple ways to recover X travel (moving the bed rearward, redesigning bed mounts, extending the frame depth, longer rails, or re-centering gantries), each introduces additional variables that complicate early tuning and validation.
+
+For the v1 dual-gantry platform, the priority is:
+
+- Validate dual-gantry mechanics and synchronization
+- Tune motion, resonance, and input shaping without custom geometry side effects
+- Observe real-world behavior of two moving toolheads under load
+- Identify print artifacts with confidence they are *motion-system related*, not geometry-induced
+- Establish a known-good baseline before expanding the envelope
+
+Introducing custom bed mounts or frame extensions at this stage risks creating failure modes that are difficult to isolate (e.g. tall-print artifacts, thermal relaxation, shifted center of mass, or stiffness asymmetries).
+
+A slightly reduced build volume is an acceptable trade-off in exchange for:
+- cleaner diagnostics
+- faster iteration
+- higher confidence in conclusions drawn from test prints
+
+Once the dual-gantry system is mechanically and dynamically validated, a future revision can safely reclaim X travel through controlled, well-understood changes (longer rails, adjusted frame depth, or revised bed mounting).
+
+This decision is intentional and scoped to **v1 validation**, not a permanent limitation.
+
+
 ## 2025-01-21 — Skirt Design Thoughts, Bed Mount Design
 
 - Designing skirt pieces
