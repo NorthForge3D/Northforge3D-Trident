@@ -12,6 +12,15 @@ Together:
 
 Both are maintained intentionally to preserve context, trace decisions, and make the project understandable to future contributors, builders, or reviewers.
 
+## 2025-01-24 - Skirts Being Confirmed
+- Designed and began printing modular skirt system
+  - Three pieces between the corner blocks
+  - Blank piece designed, printed
+  - AC Plug piece - designed, printer
+  - Raspberry Pi 4 B - pass-through piece - designed and printing
+  - Still to design: fan piece, screen mount piece
+- Plan to bolt all of them to the frame to confirm stl files and prints
+
 ## 2025-01-21 — Skirts in CAD, PAHT-CF Testing
 
 - Placed all corner blocks for skirts correctly in CAD
