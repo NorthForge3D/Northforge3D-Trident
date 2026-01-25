@@ -16,7 +16,7 @@ Both are maintained intentionally to preserve context, trace decisions, and make
 - Designed and began printing modular skirt system
   - Three pieces between the corner blocks
   - Blank piece designed, printed
-  - AC Plug piece - designed, printer
+  - AC Plug piece - designed, printed
   - Raspberry Pi 4 B - pass-through piece - designed and printing
   - Still to design: fan piece, screen mount piece
 - Plan to bolt all of them to the frame to confirm stl files and prints
