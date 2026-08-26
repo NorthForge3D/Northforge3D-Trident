@@ -1,3 +1,5 @@
+Project Currently on Hold (Aug 25, 2026). To come back better - with something completely different. Github update soon, all new. Youtube videos to come. New site coming online. We haven't abandoned it, we're just going to do it better!
+
 <p align="center">
   <img src="./img/northforge-tridentbanner.jpg" width="100%" alt="NorthForge3D Trident Banner" />
 </p>
